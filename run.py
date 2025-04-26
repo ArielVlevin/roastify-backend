@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-"""
-Runner script for the Coffee Roaster API.
-"""
+
 import argparse
 import os
 import sys
