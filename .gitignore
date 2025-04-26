@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .venv/
 .env
+.DS_Store
+
+roast_logs
+tests
+coffee_roaster.log
