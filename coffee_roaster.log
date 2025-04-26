@@ -1,0 +1,170 @@
+2025-04-24 21:18:53,793 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-24 21:18:53,793 - app.config - INFO - Simulation monitoring started
+2025-04-24 21:18:53,793 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-24 21:18:53,793 - app.config - INFO - Shutting down application
+2025-04-24 21:18:53,793 - app.config - INFO - Stopping temperature monitoring
+2025-04-24 21:18:54,396 - app.config - INFO - Temperature monitoring stopped
+2025-04-24 21:18:54,396 - app.config - INFO - Application shutdown complete
+2025-04-24 21:19:14,877 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-24 21:19:14,877 - app.config - INFO - Simulation monitoring started
+2025-04-24 21:19:14,877 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-24 21:19:14,878 - app.config - INFO - Shutting down application
+2025-04-24 21:19:14,878 - app.config - INFO - Stopping temperature monitoring
+2025-04-24 21:19:15,483 - app.config - INFO - Temperature monitoring stopped
+2025-04-24 21:19:15,483 - app.config - INFO - Application shutdown complete
+2025-04-24 21:20:49,871 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-24 21:20:49,871 - app.config - INFO - Simulation monitoring started
+2025-04-24 21:20:49,871 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-24 23:24:36,567 - app.config - INFO - Shutting down application
+2025-04-24 23:24:36,568 - app.config - INFO - Stopping temperature monitoring
+2025-04-24 23:24:36,687 - app.config - INFO - Temperature monitoring stopped
+2025-04-24 23:24:36,688 - app.config - INFO - Application shutdown complete
+2025-04-26 09:42:53,538 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 09:42:53,538 - app.config - INFO - Simulation monitoring started
+2025-04-26 09:42:53,539 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 09:45:56,800 - app.config - INFO - Roast process started
+2025-04-26 09:45:56,820 - app.config - INFO - Heat level set to 5
+2025-04-26 09:47:58,894 - app.config - INFO - First crack detected
+2025-04-26 09:48:35,115 - app.config - INFO - Second crack detected
+2025-04-26 09:49:38,242 - app.config - INFO - Roast process paused
+2025-04-26 09:49:39,117 - app.config - INFO - Roast process reset
+2025-04-26 09:49:52,567 - app.config - INFO - Roast process started
+2025-04-26 09:49:52,586 - app.config - INFO - Heat level set to 5
+2025-04-26 09:49:54,959 - app.config - INFO - Roast process reset
+2025-04-26 09:50:11,873 - app.config - INFO - Roast process started
+2025-04-26 09:50:11,899 - app.config - INFO - Heat level set to 5
+2025-04-26 09:50:14,106 - app.config - INFO - Roast process paused
+2025-04-26 09:50:15,911 - app.config - INFO - Roast process reset
+2025-04-26 09:54:05,673 - app.config - INFO - Roast process started
+2025-04-26 09:54:05,698 - app.config - INFO - Heat level set to 4
+2025-04-26 09:54:07,399 - app.config - INFO - Roast process paused
+2025-04-26 09:54:17,303 - app.config - INFO - Roast data saved to roast_1745650457.json
+2025-04-26 09:58:05,355 - app.config - INFO - Roast process started
+2025-04-26 09:58:05,388 - app.config - INFO - Heat level set to 4
+2025-04-26 10:00:25,720 - app.config - INFO - First crack detected
+2025-04-26 10:00:59,489 - app.config - INFO - Second crack detected
+2025-04-26 10:22:28,806 - app.config - INFO - Shutting down application
+2025-04-26 10:22:28,808 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 10:22:29,209 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 10:22:29,210 - app.config - INFO - Application shutdown complete
+2025-04-26 10:22:33,529 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 10:22:33,529 - app.config - INFO - Simulation monitoring started
+2025-04-26 10:22:33,529 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 10:22:44,458 - app.config - INFO - Roast process started
+2025-04-26 10:22:44,492 - app.config - INFO - Heat level set to 5
+2025-04-26 10:24:49,980 - app.config - INFO - First crack detected
+2025-04-26 10:25:23,766 - app.config - INFO - Second crack detected
+2025-04-26 10:26:39,032 - app.config - INFO - Roast process paused
+2025-04-26 10:29:59,962 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 10:29:59,962 - app.config - INFO - Simulation monitoring started
+2025-04-26 10:29:59,962 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 11:00:57,484 - app.config - INFO - Roast process started
+2025-04-26 11:00:57,520 - app.config - INFO - Heat level set to 10
+2025-04-26 11:02:05,763 - app.config - INFO - Shutting down application
+2025-04-26 11:02:05,763 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 11:02:05,962 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 11:02:05,962 - app.config - INFO - Application shutdown complete
+2025-04-26 11:02:09,042 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 11:02:09,042 - app.config - INFO - Simulation monitoring started
+2025-04-26 11:02:09,042 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 11:02:16,115 - app.config - INFO - Roast process started
+2025-04-26 11:02:16,139 - app.config - INFO - Heat level set to 10
+2025-04-26 11:02:59,298 - app.config - INFO - Shutting down application
+2025-04-26 11:02:59,301 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 11:02:59,728 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 11:02:59,729 - app.config - INFO - Application shutdown complete
+2025-04-26 11:03:05,311 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 11:03:05,311 - app.config - INFO - Simulation monitoring started
+2025-04-26 11:03:05,311 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 11:03:08,412 - app.config - INFO - Roast process started
+2025-04-26 11:03:08,450 - app.config - INFO - Heat level set to 10
+2025-04-26 11:04:36,576 - app.config - INFO - Shutting down application
+2025-04-26 11:04:36,576 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 11:04:37,074 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 11:04:37,075 - app.config - INFO - Application shutdown complete
+2025-04-26 11:04:42,281 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 11:04:42,282 - app.config - INFO - Simulation monitoring started
+2025-04-26 11:04:42,282 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 11:04:44,037 - app.config - INFO - Roast process started
+2025-04-26 11:04:44,062 - app.config - INFO - Heat level set to 10
+2025-04-26 11:06:08,637 - app.config - INFO - First crack detected
+2025-04-26 11:06:31,038 - app.config - INFO - Second crack detected
+2025-04-26 11:07:21,736 - app.config - INFO - Roast process reset
+2025-04-26 11:07:24,718 - app.config - INFO - Roast process started
+2025-04-26 11:07:24,753 - app.config - INFO - Heat level set to 10
+2025-04-26 11:08:51,677 - app.config - INFO - First crack detected
+2025-04-26 11:09:12,799 - app.config - INFO - Second crack detected
+2025-04-26 11:10:11,182 - app.config - INFO - Roast process reset
+2025-04-26 11:10:19,228 - app.config - INFO - Shutting down application
+2025-04-26 11:10:19,228 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 11:10:19,791 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 11:10:19,791 - app.config - INFO - Application shutdown complete
+2025-04-26 11:10:24,464 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 11:10:24,464 - app.config - INFO - Simulation monitoring started
+2025-04-26 11:10:24,464 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 11:10:38,790 - app.config - INFO - Roast process started
+2025-04-26 11:10:38,833 - app.config - INFO - Heat level set to 10
+2025-04-26 11:12:03,984 - app.config - INFO - First crack detected
+2025-04-26 11:12:27,519 - app.config - INFO - Second crack detected
+2025-04-26 11:38:07,067 - app.config - INFO - Roast process reset
+2025-04-26 11:38:07,104 - app.config - INFO - Roast process started
+2025-04-26 11:38:07,139 - app.config - INFO - Heat level set to 10
+2025-04-26 11:38:07,192 - app.config - INFO - Roast process paused
+2025-04-26 11:38:08,419 - app.config - INFO - Roast process started
+2025-04-26 11:38:08,521 - app.config - INFO - Roast process paused
+2025-04-26 11:38:15,270 - app.config - INFO - Roast process started
+2025-04-26 11:38:15,326 - app.config - INFO - Heat level set to 10
+2025-04-26 11:38:36,762 - app.config - INFO - Shutting down application
+2025-04-26 11:38:36,764 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 11:38:36,856 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 11:38:36,856 - app.config - INFO - Application shutdown complete
+2025-04-26 11:38:57,334 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 11:38:57,334 - app.config - INFO - Simulation monitoring started
+2025-04-26 11:38:57,334 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 11:45:24,115 - app.config - INFO - Roast process started
+2025-04-26 11:45:24,146 - app.config - INFO - Heat level set to 10
+2025-04-26 11:46:27,752 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 11:46:27,753 - app.config - INFO - Roast process paused
+2025-04-26 11:46:27,753 - app.config - INFO - Set roast start time to 1745657124120.0
+2025-04-26 11:46:36,973 - app.config - INFO - Roast process reset
+2025-04-26 11:46:37,946 - app.config - INFO - Roast process started
+2025-04-26 11:46:37,978 - app.config - INFO - Heat level set to 10
+2025-04-26 11:47:21,205 - app.config - INFO - Heat level set to 8
+2025-04-26 11:47:41,605 - app.config - INFO - Heat level set to 6
+2025-04-26 11:48:00,804 - app.config - INFO - Heat level set to 5
+2025-04-26 11:48:13,549 - app.config - INFO - First crack detected
+2025-04-26 11:48:29,141 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 11:48:29,141 - app.config - INFO - Roast process paused
+2025-04-26 11:48:29,141 - app.config - INFO - Set roast start time to 1745657197947.0
+2025-04-26 11:48:31,709 - app.config - INFO - Roast process started
+2025-04-26 11:48:31,775 - app.config - INFO - Heat level set to 3
+2025-04-26 11:48:59,411 - app.config - INFO - Second crack detected
+2025-04-26 11:49:48,414 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 11:49:48,414 - app.config - INFO - Roast process paused
+2025-04-26 11:49:48,414 - app.config - INFO - Set roast start time to 1745657197947.0
+2025-04-26 11:49:52,982 - app.config - INFO - Roast process started
+2025-04-26 11:49:53,034 - app.config - INFO - Heat level set to 3
+2025-04-26 11:50:03,179 - app.config - INFO - Roast process paused
+2025-04-26 11:50:04,746 - app.config - INFO - Roast process started
+2025-04-26 11:50:07,382 - app.config - INFO - Roast process paused
+2025-04-26 11:50:08,137 - app.config - INFO - Roast process reset
+2025-04-26 11:50:09,958 - app.config - INFO - Roast process started
+2025-04-26 11:50:10,005 - app.config - INFO - Heat level set to 10
+2025-04-26 11:50:42,720 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 11:50:42,720 - app.config - INFO - Roast process paused
+2025-04-26 11:50:42,720 - app.config - INFO - Set roast start time to 1745657409961.0
+2025-04-26 11:50:46,509 - app.config - INFO - Roast process started
+2025-04-26 11:50:46,551 - app.config - INFO - Heat level set to 10
+2025-04-26 11:50:55,753 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 11:50:55,754 - app.config - INFO - Roast process paused
+2025-04-26 11:50:55,754 - app.config - INFO - Set roast start time to 1745657409961.0
+2025-04-26 11:50:57,220 - app.config - INFO - Roast process started
+2025-04-26 11:50:57,249 - app.config - INFO - Heat level set to 10
+2025-04-26 11:50:57,308 - app.config - INFO - Heat level set to 8
+2025-04-26 11:51:11,826 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 11:51:11,826 - app.config - INFO - Roast process paused
+2025-04-26 11:51:11,826 - app.config - INFO - Set roast start time to 1745657409961.0
+2025-04-26 11:57:12,763 - app.config - INFO - Shutting down application
+2025-04-26 11:57:12,764 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 11:57:13,072 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 11:57:13,072 - app.config - INFO - Application shutdown complete
