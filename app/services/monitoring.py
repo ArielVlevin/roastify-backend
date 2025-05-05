@@ -4,6 +4,7 @@ Manages the monitoring thread and data collection.
 """
 import time
 import threading
+import copy
 from typing import List, Dict, Optional, Callable
 
 from app.config import settings, logger
@@ -27,6 +28,9 @@ on_second_crack: Optional[Callable[[], None]] = None
 # State for crack detection
 first_crack_detected = False
 second_crack_detected = False
+
+# Current roast ID for logging
+current_roast_id = None
 
 def get_current_temperature() -> float:
     """
@@ -66,7 +70,10 @@ def set_heat_level(level: int) -> bool:
     
     # Apply to hardware if not in simulation mode
     if not settings.SIMULATION_MODE:
-        return hardware.set_heat_level(level)
+        result = hardware.set_heat_level(level)
+        if not result:
+            logger.error(f"Failed to set hardware heat level to {level}")
+        return result
     
     return True
 
@@ -79,6 +86,7 @@ def start_roast() -> float:
     """
     global is_roasting, roast_data, roast_start_time
     global first_crack_detected, second_crack_detected
+    global current_roast_id
     
     # Reset state
     is_roasting = True
@@ -86,6 +94,10 @@ def start_roast() -> float:
     roast_start_time = time.time()
     first_crack_detected = False
     second_crack_detected = False
+    
+    # Create new roast logger if needed
+    if hasattr(logger, 'create_roast_logger'):
+        current_roast_id = logger.create_roast_logger()
     
     logger.info("Roast process started")
     return roast_start_time
@@ -124,7 +136,7 @@ def get_status() -> Dict[str, float]:
         "is_roasting": is_roasting,
         "heat_level": heat_level,
         "temperature": round(current_temp, 1),
-        "elapsed_time": (time.time() - roast_start_time) / 60 if is_roasting else 0
+        "elapsed_time": (time.time() - roast_start_time) if is_roasting else 0  # seconds
     }
 
 def get_roast_data() -> List[Dict[str, float]]:
@@ -134,13 +146,16 @@ def get_roast_data() -> List[Dict[str, float]]:
     Returns:
         list: List of temperature data points
     """
-    return roast_data
+    # Return a copy to prevent external modification
+    return copy.deepcopy(roast_data)
 
 def _temperature_monitoring_task() -> None:
     """Background task for temperature monitoring."""
     global is_roasting, roast_data, first_crack_detected, second_crack_detected, stop_monitor
     
     logger.info(f"{'Simulation' if settings.SIMULATION_MODE else 'Temperature'} monitoring started")
+    
+    last_log_time = 0
     
     while not stop_monitor:
         try:
@@ -151,13 +166,13 @@ def _temperature_monitoring_task() -> None:
                 else:
                     current_temp = get_current_temperature()
                     
-                # Calculate elapsed time
-                elapsed_time = (time.time() - roast_start_time) / 60  # minutes
+                # Calculate elapsed time in seconds
+                elapsed_time = (time.time() - roast_start_time)  # seconds
                 
                 # Record the data point
                 data_point = {
                     "time": round(elapsed_time, 1),
-                    "temperature": round(current_temp)
+                    "temperature": round(current_temp, 1)  # Consistent decimal precision
                 }
                 roast_data.append(data_point)
                 
@@ -179,9 +194,11 @@ def _temperature_monitoring_task() -> None:
                     if on_second_crack:
                         on_second_crack()
                 
-                # Log temperature occasionally
-                if int(elapsed_time * 10) % 10 == 0:  # Every minute
-                    logger.debug(f"Temperature: {current_temp:.1f}°F, Time: {elapsed_time:.1f} min")
+                # Log temperature every 60 seconds
+                current_time = int(elapsed_time)
+                if current_time >= last_log_time + 60:
+                    logger.debug(f"Temperature: {current_temp:.1f}°F, Time: {elapsed_time:.1f} sec")
+                    last_log_time = current_time
             
             # Sleep for a short interval
             time.sleep(settings.TEMPERATURE_UPDATE_INTERVAL)
@@ -264,9 +281,6 @@ def get_roast_stage() -> str:
     current_temp = get_current_temperature()
     return simulator.get_roast_stage(current_temp)
 
-
-
-
 def restore_data(data_points):
     """
     Restore temperature data from client.
@@ -281,13 +295,12 @@ def restore_data(data_points):
         return
     
     # Copy data to prevent reference issues
-    roast_data = data_points.copy()
+    roast_data = copy.deepcopy(data_points)
     
     # If we have data, update the current temperature
     if len(roast_data) > 0:
         last_point = roast_data[-1]
         # Update simulator temperature to match
-        from app.core import simulator
         simulator.current_temperature = last_point["temperature"]
         
     logger.info(f"Restored {len(data_points)} data points from client")
@@ -325,8 +338,25 @@ def force_start_roast():
     first_crack_detected = False
     second_crack_detected = False
     
-    # Create new roast logger
-    current_roast_id = logger.create_roast_logger()
+    # Create new roast logger if available
+    if hasattr(logger, 'create_roast_logger'):
+        current_roast_id = logger.create_roast_logger()
     
     logger.info("Roast process force-started")
     return roast_start_time
+
+def restore_crack_status(first_crack: bool, second_crack: bool):
+    """
+    Restore crack detection status.
+    Used when syncing state between client and server.
+    
+    Args:
+        first_crack: Whether first crack has been detected
+        second_crack: Whether second crack has been detected
+    """
+    global first_crack_detected, second_crack_detected
+    
+    first_crack_detected = first_crack
+    second_crack_detected = second_crack
+    
+    logger.info(f"Restored crack status: first={first_crack}, second={second_crack}")

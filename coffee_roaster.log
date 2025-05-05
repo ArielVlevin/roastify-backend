@@ -168,3 +168,1134 @@
 2025-04-26 11:57:12,764 - app.config - INFO - Stopping temperature monitoring
 2025-04-26 11:57:13,072 - app.config - INFO - Temperature monitoring stopped
 2025-04-26 11:57:13,072 - app.config - INFO - Application shutdown complete
+2025-04-26 12:13:30,515 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 12:13:30,515 - app.config - INFO - Simulation monitoring started
+2025-04-26 12:13:30,515 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 12:13:52,846 - app.config - INFO - Roast process started
+2025-04-26 12:13:52,901 - app.config - INFO - Heat level set to 8
+2025-04-26 12:13:52,911 - app.config - INFO - Roast process paused
+2025-04-26 12:13:52,937 - app.config - INFO - Heat level set to 10
+2025-04-26 12:13:52,937 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 12:13:52,938 - app.config - INFO - Set roast start time to 1745657409961.0
+2025-04-26 12:13:52,992 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 12:13:52,992 - app.config - INFO - Roast process paused
+2025-04-26 12:13:52,992 - app.config - INFO - Set roast start time to 1745657409961.0
+2025-04-26 12:14:11,917 - app.config - INFO - Roast process started
+2025-04-26 12:14:11,949 - app.config - INFO - Heat level set to 10
+2025-04-26 12:14:36,231 - app.config - INFO - Roast process reset
+2025-04-26 12:25:24,821 - app.config - INFO - Shutting down application
+2025-04-26 12:25:24,822 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 12:25:25,127 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 12:25:25,127 - app.config - INFO - Application shutdown complete
+2025-04-26 12:39:31,900 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 12:39:31,900 - app.config - INFO - Simulation monitoring started
+2025-04-26 12:39:31,900 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 12:45:23,494 - app.config - INFO - Roast process started
+2025-04-26 12:45:23,533 - app.config - INFO - Heat level set to 10
+2025-04-26 12:46:09,147 - app.config - INFO - Heat level set to 8
+2025-04-26 12:46:27,748 - app.config - INFO - Heat level set to 6
+2025-04-26 12:46:57,749 - app.config - INFO - Heat level set to 5
+2025-04-26 12:47:10,347 - app.config - INFO - Heat level set to 4
+2025-04-26 12:47:15,913 - app.config - INFO - First crack detected
+2025-04-26 12:47:25,347 - app.config - INFO - Heat level set to 3
+2025-04-26 12:48:00,584 - app.config - INFO - Second crack detected
+2025-04-26 12:48:17,349 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 12:48:17,349 - app.config - INFO - Roast process paused
+2025-04-26 12:48:17,349 - app.config - INFO - Set roast start time to 1745660723503.0
+2025-04-26 13:28:58,629 - app.config - INFO - Roast process started
+2025-04-26 13:28:58,670 - app.config - INFO - Roast process paused
+2025-04-26 13:28:58,672 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:28:58,672 - app.config - INFO - Restored 285 data points from client
+2025-04-26 13:28:58,672 - app.config - INFO - Set roast start time to 1745660723503.0
+2025-04-26 13:28:58,673 - app.config - INFO - Heat level set to 3
+2025-04-26 13:28:58,691 - app.config - INFO - Roast process paused
+2025-04-26 13:29:01,221 - app.config - INFO - Roast process reset
+2025-04-26 13:29:02,261 - app.config - INFO - Roast process started
+2025-04-26 13:29:02,284 - app.config - INFO - Heat level set to 10
+2025-04-26 13:29:50,906 - app.config - INFO - Heat level set to 8
+2025-04-26 13:30:08,912 - app.config - INFO - Heat level set to 6
+2025-04-26 13:30:35,311 - app.config - INFO - Heat level set to 5
+2025-04-26 13:30:47,310 - app.config - INFO - Heat level set to 4
+2025-04-26 13:30:50,138 - app.config - INFO - First crack detected
+2025-04-26 13:30:55,713 - app.config - INFO - Heat level set to 3
+2025-04-26 13:31:36,024 - app.config - INFO - Second crack detected
+2025-04-26 13:35:42,480 - app.config - INFO - Roast process reset
+2025-04-26 13:35:42,499 - app.config - INFO - Roast process started
+2025-04-26 13:35:42,526 - app.config - INFO - Heat level set to 10
+2025-04-26 13:35:42,540 - app.config - INFO - Roast process paused
+2025-04-26 13:35:42,552 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:35:42,552 - app.config - INFO - Restored 1 data points from client
+2025-04-26 13:35:42,567 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:35:42,567 - app.config - INFO - Roast process paused
+2025-04-26 13:35:45,802 - app.config - INFO - Roast process reset
+2025-04-26 13:35:46,661 - app.config - INFO - Roast process started
+2025-04-26 13:36:40,097 - app.config - INFO - Heat level set to 8
+2025-04-26 13:36:52,105 - app.config - INFO - Heat level set to 6
+2025-04-26 13:37:10,096 - app.config - INFO - Heat level set to 5
+2025-04-26 13:37:20,903 - app.config - INFO - Heat level set to 4
+2025-04-26 13:37:23,670 - app.config - INFO - First crack detected
+2025-04-26 13:37:32,297 - app.config - INFO - Heat level set to 3
+2025-04-26 13:38:11,933 - app.config - INFO - Second crack detected
+2025-04-26 13:38:36,999 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:38:36,999 - app.config - INFO - Roast process paused
+2025-04-26 13:38:36,999 - app.config - INFO - Set roast start time to 1745663746663.0
+2025-04-26 13:38:39,706 - app.config - INFO - Roast process reset
+2025-04-26 13:38:40,410 - app.config - INFO - Roast process started
+2025-04-26 13:38:40,429 - app.config - INFO - Heat level set to 10
+2025-04-26 13:39:22,490 - app.config - INFO - Heat level set to 8
+2025-04-26 13:39:39,280 - app.config - INFO - Heat level set to 6
+2025-04-26 13:39:56,674 - app.config - INFO - Heat level set to 5
+2025-04-26 13:40:05,687 - app.config - INFO - Heat level set to 4
+2025-04-26 13:40:07,849 - app.config - INFO - First crack detected
+2025-04-26 13:40:20,690 - app.config - INFO - Heat level set to 3
+2025-04-26 13:40:53,731 - app.config - INFO - Second crack detected
+2025-04-26 13:43:32,364 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:43:32,368 - app.config - INFO - Roast process paused
+2025-04-26 13:43:32,370 - app.config - INFO - Set roast start time to 1745663920413.0
+2025-04-26 13:43:34,804 - app.config - INFO - Roast process reset
+2025-04-26 13:43:35,753 - app.config - INFO - Roast process started
+2025-04-26 13:43:35,783 - app.config - INFO - Heat level set to 10
+2025-04-26 13:44:20,221 - app.config - INFO - Heat level set to 8
+2025-04-26 13:44:40,020 - app.config - INFO - Heat level set to 6
+2025-04-26 13:44:54,842 - app.config - INFO - Roast process reset
+2025-04-26 13:44:55,450 - app.config - INFO - Roast process started
+2025-04-26 13:44:55,484 - app.config - INFO - Heat level set to 10
+2025-04-26 13:45:03,234 - app.config - INFO - Roast process reset
+2025-04-26 13:45:06,220 - app.config - INFO - Roast process started
+2025-04-26 13:45:06,253 - app.config - INFO - Heat level set to 10
+2025-04-26 13:45:21,256 - app.config - INFO - Roast process paused
+2025-04-26 13:45:21,292 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:45:21,292 - app.config - INFO - Set roast start time to 1745664306223.0
+2025-04-26 13:45:21,322 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:45:21,322 - app.config - INFO - Roast process paused
+2025-04-26 13:45:21,322 - app.config - INFO - Set roast start time to 1745664306223.0
+2025-04-26 13:46:56,074 - app.config - INFO - Roast process reset
+2025-04-26 13:46:56,870 - app.config - INFO - Roast process started
+2025-04-26 13:47:11,904 - app.config - INFO - Roast process paused
+2025-04-26 13:47:11,943 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:47:11,943 - app.config - INFO - Set roast start time to 1745664416872.0
+2025-04-26 13:47:11,979 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:47:11,979 - app.config - INFO - Roast process paused
+2025-04-26 13:47:11,979 - app.config - INFO - Set roast start time to 1745664416872.0
+2025-04-26 13:47:45,641 - app.config - INFO - Roast process reset
+2025-04-26 13:47:46,208 - app.config - INFO - Roast process started
+2025-04-26 13:48:01,230 - app.config - INFO - Roast process paused
+2025-04-26 13:48:01,268 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:48:01,268 - app.config - INFO - Set roast start time to 1745664466209.0
+2025-04-26 13:48:01,305 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:48:01,305 - app.config - INFO - Roast process paused
+2025-04-26 13:48:01,305 - app.config - INFO - Set roast start time to 1745664466209.0
+2025-04-26 13:49:40,371 - app.config - INFO - Roast process reset
+2025-04-26 13:49:43,831 - app.config - INFO - Roast process started
+2025-04-26 13:50:04,457 - app.config - INFO - Roast process reset
+2025-04-26 13:50:04,482 - app.config - INFO - Roast process started
+2025-04-26 13:50:04,523 - app.config - INFO - Heat level set to 10
+2025-04-26 13:50:04,563 - app.config - INFO - Roast process paused
+2025-04-26 13:50:04,593 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:50:04,593 - app.config - INFO - Restored 1 data points from client
+2025-04-26 13:50:04,613 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:50:04,613 - app.config - INFO - Roast process paused
+2025-04-26 13:50:06,259 - app.config - INFO - Roast process reset
+2025-04-26 13:50:06,919 - app.config - INFO - Roast process started
+2025-04-26 13:50:22,642 - app.config - INFO - Shutting down application
+2025-04-26 13:50:22,642 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 13:50:23,188 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 13:50:23,189 - app.config - INFO - Application shutdown complete
+2025-04-26 13:50:27,937 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 13:50:27,938 - app.config - INFO - Simulation monitoring started
+2025-04-26 13:50:27,938 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 13:50:30,720 - app.config - INFO - Roast process started
+2025-04-26 13:50:30,754 - app.config - INFO - Heat level set to 10
+2025-04-26 13:50:36,157 - app.config - INFO - Roast process reset
+2025-04-26 13:50:36,188 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:50:36,188 - app.config - INFO - Restored 10 data points from client
+2025-04-26 13:50:36,188 - app.config - INFO - Set roast start time to 1745664630722.0
+2025-04-26 13:50:36,571 - app.config - INFO - Roast process reset
+2025-04-26 13:50:36,591 - app.config - INFO - Roast process started
+2025-04-26 13:52:23,365 - app.config - INFO - First crack detected
+2025-04-26 13:52:25,496 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:52:25,496 - app.config - INFO - Roast process paused
+2025-04-26 13:52:25,496 - app.config - INFO - Set roast start time to 1745664630722.0
+2025-04-26 13:52:26,756 - app.config - INFO - Roast process reset
+2025-04-26 13:52:27,270 - app.config - INFO - Roast process started
+2025-04-26 13:52:27,298 - app.config - INFO - Heat level set to 10
+2025-04-26 13:52:42,302 - app.config - INFO - Roast process paused
+2025-04-26 13:52:42,347 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:52:42,347 - app.config - INFO - Set roast start time to 1745664747271.0
+2025-04-26 13:52:42,383 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:52:42,384 - app.config - INFO - Roast process paused
+2025-04-26 13:52:42,384 - app.config - INFO - Set roast start time to 1745664747271.0
+2025-04-26 13:53:35,683 - app.config - INFO - Roast process reset
+2025-04-26 13:53:37,045 - app.config - INFO - Roast process started
+2025-04-26 13:53:37,077 - app.config - INFO - Heat level set to 10
+2025-04-26 13:54:32,917 - app.config - INFO - Heat level set to 8
+2025-04-26 13:54:52,115 - app.config - INFO - Heat level set to 6
+2025-04-26 13:55:22,123 - app.config - INFO - Heat level set to 5
+2025-04-26 13:55:43,116 - app.config - INFO - Heat level set to 4
+2025-04-26 13:55:49,087 - app.config - INFO - First crack detected
+2025-04-26 13:56:06,516 - app.config - INFO - Roast process paused
+2025-04-26 13:56:06,517 - app.config - INFO - Heat level set to 3
+2025-04-26 13:56:06,518 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:56:06,518 - app.config - INFO - Set roast start time to 1745664817047.0
+2025-04-26 13:56:06,600 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:56:06,600 - app.config - INFO - Roast process paused
+2025-04-26 13:56:06,600 - app.config - INFO - Set roast start time to 1745664817047.0
+2025-04-26 13:57:34,295 - app.config - INFO - Roast process reset
+2025-04-26 13:57:35,241 - app.config - INFO - Roast process started
+2025-04-26 13:57:35,278 - app.config - INFO - Heat level set to 10
+2025-04-26 13:58:26,913 - app.config - INFO - Heat level set to 8
+2025-04-26 13:58:47,311 - app.config - INFO - Heat level set to 6
+2025-04-26 13:59:08,310 - app.config - INFO - Heat level set to 5
+2025-04-26 13:59:28,116 - app.config - INFO - Heat level set to 4
+2025-04-26 13:59:36,932 - app.config - INFO - First crack detected
+2025-04-26 13:59:52,109 - app.config - INFO - Roast process paused
+2025-04-26 13:59:52,111 - app.config - INFO - Heat level set to 3
+2025-04-26 13:59:52,112 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 13:59:52,112 - app.config - INFO - Set roast start time to 1745665055243.0
+2025-04-26 13:59:52,192 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 13:59:52,192 - app.config - INFO - Roast process paused
+2025-04-26 13:59:52,193 - app.config - INFO - Set roast start time to 1745665055243.0
+2025-04-26 14:00:31,484 - app.config - INFO - Roast process reset
+2025-04-26 14:00:32,187 - app.config - INFO - Roast process started
+2025-04-26 14:00:32,217 - app.config - INFO - Heat level set to 10
+2025-04-26 14:00:43,854 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:00:43,855 - app.config - INFO - Roast process paused
+2025-04-26 14:00:43,855 - app.config - INFO - Set roast start time to 1745665232191.0
+2025-04-26 14:01:01,294 - app.config - INFO - Roast process started
+2025-04-26 14:01:01,347 - app.config - INFO - Heat level set to 10
+2025-04-26 14:01:44,584 - app.config - INFO - Heat level set to 8
+2025-04-26 14:02:10,997 - app.config - INFO - Heat level set to 6
+2025-04-26 14:02:34,987 - app.config - INFO - Heat level set to 5
+2025-04-26 14:02:48,193 - app.config - INFO - Heat level set to 4
+2025-04-26 14:02:51,206 - app.config - INFO - Heat level set to 5
+2025-04-26 14:02:51,789 - app.config - INFO - Heat level set to 4
+2025-04-26 14:02:54,684 - app.config - INFO - First crack detected
+2025-04-26 14:03:01,615 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:03:01,615 - app.config - INFO - Roast process paused
+2025-04-26 14:03:01,615 - app.config - INFO - Set roast start time to 1745665232191.0
+2025-04-26 14:03:04,058 - app.config - INFO - Roast process started
+2025-04-26 14:03:04,111 - app.config - INFO - Heat level set to 4
+2025-04-26 14:03:04,723 - app.config - INFO - First crack detected
+2025-04-26 14:03:10,154 - app.config - INFO - Roast process paused
+2025-04-26 14:03:10,157 - app.config - INFO - Heat level set to 3
+2025-04-26 14:03:10,158 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:03:10,159 - app.config - INFO - Set roast start time to 1745665232191.0
+2025-04-26 14:03:10,232 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:03:10,232 - app.config - INFO - Roast process paused
+2025-04-26 14:03:10,232 - app.config - INFO - Set roast start time to 1745665232191.0
+2025-04-26 14:03:14,028 - app.config - INFO - Roast process reset
+2025-04-26 14:03:14,630 - app.config - INFO - Roast process started
+2025-04-26 14:03:14,659 - app.config - INFO - Heat level set to 10
+2025-04-26 14:04:14,101 - app.config - INFO - Heat level set to 8
+2025-04-26 14:04:36,305 - app.config - INFO - Heat level set to 6
+2025-04-26 14:05:13,488 - app.config - INFO - Heat level set to 5
+2025-04-26 14:05:21,882 - app.config - INFO - Shutting down application
+2025-04-26 14:05:21,882 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 14:05:22,203 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 14:05:22,203 - app.config - INFO - Application shutdown complete
+2025-04-26 14:05:36,710 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 14:05:36,710 - app.config - INFO - Simulation monitoring started
+2025-04-26 14:05:36,710 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 14:05:36,897 - app.config - INFO - Heat level set to 10
+2025-04-26 14:05:36,900 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:05:36,900 - app.config - INFO - Restored 213 data points from client
+2025-04-26 14:05:36,901 - app.config - INFO - Set roast start time to 1745665394632.0
+2025-04-26 14:05:52,443 - app.config - INFO - Roast process reset
+2025-04-26 14:05:52,472 - app.config - INFO - Roast process started
+2025-04-26 14:05:52,511 - app.config - INFO - Heat level set to 10
+2025-04-26 14:05:52,539 - app.config - INFO - Roast process paused
+2025-04-26 14:05:52,560 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:05:52,560 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:05:52,586 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:05:52,586 - app.config - INFO - Roast process paused
+2025-04-26 14:05:53,966 - app.config - INFO - Roast process started
+2025-04-26 14:05:54,007 - app.config - INFO - Roast process paused
+2025-04-26 14:05:54,032 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:05:54,032 - app.config - INFO - Restored 2 data points from client
+2025-04-26 14:05:54,061 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:05:54,061 - app.config - INFO - Roast process paused
+2025-04-26 14:05:55,591 - app.config - INFO - Roast process reset
+2025-04-26 14:05:56,168 - app.config - INFO - Roast process started
+2025-04-26 14:06:11,845 - app.config - INFO - Roast process reset
+2025-04-26 14:06:11,867 - app.config - INFO - Roast process started
+2025-04-26 14:06:11,907 - app.config - INFO - Heat level set to 10
+2025-04-26 14:06:11,936 - app.config - INFO - Roast process paused
+2025-04-26 14:06:11,960 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:06:11,960 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:06:11,982 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:06:11,983 - app.config - INFO - Roast process paused
+2025-04-26 14:06:19,097 - app.config - INFO - Roast process started
+2025-04-26 14:06:19,135 - app.config - INFO - Roast process paused
+2025-04-26 14:06:19,162 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:06:19,162 - app.config - INFO - Restored 2 data points from client
+2025-04-26 14:06:19,190 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:06:19,190 - app.config - INFO - Roast process paused
+2025-04-26 14:06:20,341 - app.config - INFO - Roast process started
+2025-04-26 14:06:20,375 - app.config - INFO - Roast process paused
+2025-04-26 14:06:20,394 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:06:20,394 - app.config - INFO - Restored 3 data points from client
+2025-04-26 14:06:20,423 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:06:20,423 - app.config - INFO - Roast process paused
+2025-04-26 14:06:21,509 - app.config - INFO - Roast process reset
+2025-04-26 14:06:21,962 - app.config - INFO - Roast process started
+2025-04-26 14:06:23,611 - app.config - INFO - Roast process reset
+2025-04-26 14:14:26,439 - app.config - INFO - Shutting down application
+2025-04-26 14:14:26,441 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 14:14:26,639 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 14:14:26,640 - app.config - INFO - Application shutdown complete
+2025-04-26 14:14:29,279 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 14:14:29,280 - app.config - INFO - Simulation monitoring started
+2025-04-26 14:14:29,280 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 14:14:34,227 - app.config - INFO - Roast process started
+2025-04-26 14:14:43,282 - app.config - INFO - Roast process reset
+2025-04-26 14:14:43,301 - app.config - INFO - Roast process started
+2025-04-26 14:14:43,340 - app.config - INFO - Heat level set to 10
+2025-04-26 14:14:43,366 - app.config - INFO - Roast process paused
+2025-04-26 14:14:43,390 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:14:43,418 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:14:43,418 - app.config - INFO - Roast process paused
+2025-04-26 14:15:27,743 - app.config - INFO - Roast process started
+2025-04-26 14:15:27,771 - app.config - INFO - Heat level set to 10
+2025-04-26 14:15:36,446 - app.config - INFO - Roast process reset
+2025-04-26 14:15:36,891 - app.config - INFO - Roast process started
+2025-04-26 14:15:41,436 - app.config - INFO - Roast process reset
+2025-04-26 14:15:41,457 - app.config - INFO - Roast process started
+2025-04-26 14:15:41,495 - app.config - INFO - Heat level set to 10
+2025-04-26 14:15:41,524 - app.config - INFO - Roast process paused
+2025-04-26 14:15:41,546 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:15:41,573 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:15:41,573 - app.config - INFO - Roast process paused
+2025-04-26 14:22:40,155 - app.config - INFO - Roast process started
+2025-04-26 14:22:40,191 - app.config - INFO - Heat level set to 10
+2025-04-26 14:22:48,665 - app.config - INFO - Roast process paused
+2025-04-26 14:23:33,984 - app.config - INFO - Roast process reset
+2025-04-26 14:23:34,888 - app.config - INFO - Roast process started
+2025-04-26 14:23:34,913 - app.config - INFO - Heat level set to 10
+2025-04-26 14:24:48,754 - app.config - INFO - Heat level set to 8
+2025-04-26 14:25:12,159 - app.config - INFO - Heat level set to 6
+2025-04-26 14:25:31,660 - app.config - INFO - First crack detected
+2025-04-26 14:25:39,239 - app.config - INFO - Heat level set to 5
+2025-04-26 14:25:53,599 - app.config - INFO - Roast process paused
+2025-04-26 14:25:54,556 - app.config - INFO - Roast process reset
+2025-04-26 14:25:55,095 - app.config - INFO - Roast process started
+2025-04-26 14:25:55,125 - app.config - INFO - Heat level set to 10
+2025-04-26 14:27:33,122 - app.config - INFO - First crack detected
+2025-04-26 14:28:06,257 - app.config - INFO - Second crack detected
+2025-04-26 14:29:55,443 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:29:55,445 - app.config - INFO - Roast process paused
+2025-04-26 14:29:55,445 - app.config - INFO - Set roast start time to 1745666755096.0
+2025-04-26 14:29:58,493 - app.config - INFO - Roast process started
+2025-04-26 14:29:58,521 - app.config - INFO - Heat level set to 10
+2025-04-26 14:29:58,562 - app.config - INFO - Heat level set to 3
+2025-04-26 14:30:12,563 - app.config - INFO - Roast process reset
+2025-04-26 14:30:13,089 - app.config - INFO - Roast process started
+2025-04-26 14:30:13,123 - app.config - INFO - Heat level set to 10
+2025-04-26 14:30:47,163 - app.config - INFO - Roast process paused
+2025-04-26 14:30:51,363 - app.config - INFO - Roast process started
+2025-04-26 14:30:51,396 - app.config - INFO - Heat level set to 10
+2025-04-26 14:31:00,613 - app.config - INFO - Roast process reset
+2025-04-26 14:31:00,636 - app.config - INFO - Roast process started
+2025-04-26 14:31:00,674 - app.config - INFO - Heat level set to 10
+2025-04-26 14:31:00,702 - app.config - INFO - Roast process paused
+2025-04-26 14:31:00,724 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:31:00,724 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:31:00,750 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:31:00,750 - app.config - INFO - Roast process paused
+2025-04-26 14:31:10,973 - app.config - INFO - Roast process started
+2025-04-26 14:31:11,002 - app.config - INFO - Heat level set to 10
+2025-04-26 14:31:15,134 - app.config - INFO - Roast process reset
+2025-04-26 14:31:15,159 - app.config - INFO - Roast process started
+2025-04-26 14:31:15,196 - app.config - INFO - Heat level set to 10
+2025-04-26 14:31:15,225 - app.config - INFO - Roast process paused
+2025-04-26 14:31:15,246 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:31:15,246 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:31:15,271 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:31:15,272 - app.config - INFO - Roast process paused
+2025-04-26 14:31:19,427 - app.config - INFO - Roast process started
+2025-04-26 14:31:19,463 - app.config - INFO - Roast process paused
+2025-04-26 14:31:19,493 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:31:19,493 - app.config - INFO - Restored 2 data points from client
+2025-04-26 14:31:19,517 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:31:19,518 - app.config - INFO - Roast process paused
+2025-04-26 14:31:24,719 - app.config - INFO - Roast process started
+2025-04-26 14:31:24,757 - app.config - INFO - Roast process paused
+2025-04-26 14:31:24,783 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:31:24,783 - app.config - INFO - Restored 3 data points from client
+2025-04-26 14:31:24,810 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:31:24,810 - app.config - INFO - Roast process paused
+2025-04-26 14:32:14,042 - app.config - INFO - Roast process started
+2025-04-26 14:32:14,071 - app.config - INFO - Roast process paused
+2025-04-26 14:32:14,096 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:32:14,096 - app.config - INFO - Restored 4 data points from client
+2025-04-26 14:32:14,122 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:32:14,123 - app.config - INFO - Roast process paused
+2025-04-26 14:32:40,697 - app.config - INFO - Roast process reset
+2025-04-26 14:32:41,497 - app.config - INFO - Roast process started
+2025-04-26 14:32:47,949 - app.config - INFO - Roast process reset
+2025-04-26 14:32:47,971 - app.config - INFO - Roast process started
+2025-04-26 14:32:47,998 - app.config - INFO - Heat level set to 10
+2025-04-26 14:32:48,014 - app.config - INFO - Roast process paused
+2025-04-26 14:32:48,075 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:32:48,075 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:32:48,076 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:32:48,076 - app.config - INFO - Roast process paused
+2025-04-26 14:32:52,394 - app.config - INFO - Roast process started
+2025-04-26 14:32:52,416 - app.config - INFO - Heat level set to 10
+2025-04-26 14:33:53,748 - app.config - INFO - Roast process reset
+2025-04-26 14:33:53,767 - app.config - INFO - Roast process started
+2025-04-26 14:33:53,811 - app.config - INFO - Heat level set to 10
+2025-04-26 14:33:53,845 - app.config - INFO - Roast process paused
+2025-04-26 14:33:53,871 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:33:53,871 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:33:53,902 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:33:53,902 - app.config - INFO - Roast process paused
+2025-04-26 14:33:54,739 - app.config - INFO - Roast process reset
+2025-04-26 14:33:55,418 - app.config - INFO - Roast process started
+2025-04-26 14:34:02,714 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:34:02,714 - app.config - INFO - Roast process paused
+2025-04-26 14:34:02,715 - app.config - INFO - Set roast start time to 1745667235419.0
+2025-04-26 14:34:04,142 - app.config - INFO - Roast process started
+2025-04-26 14:34:04,170 - app.config - INFO - Heat level set to 10
+2025-04-26 14:34:07,427 - app.config - INFO - Roast process paused
+2025-04-26 14:34:08,333 - app.config - INFO - Roast process reset
+2025-04-26 14:34:09,003 - app.config - INFO - Roast process started
+2025-04-26 14:34:16,171 - app.config - INFO - Roast process reset
+2025-04-26 14:34:16,195 - app.config - INFO - Roast process started
+2025-04-26 14:34:16,235 - app.config - INFO - Heat level set to 10
+2025-04-26 14:34:16,259 - app.config - INFO - Roast process paused
+2025-04-26 14:34:16,285 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:34:16,285 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:34:16,310 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:34:16,310 - app.config - INFO - Roast process paused
+2025-04-26 14:43:08,505 - app.config - INFO - Roast process started
+2025-04-26 14:43:08,541 - app.config - INFO - Heat level set to 10
+2025-04-26 14:43:15,542 - app.config - INFO - Roast process reset
+2025-04-26 14:43:15,568 - app.config - INFO - Roast process started
+2025-04-26 14:43:15,610 - app.config - INFO - Heat level set to 10
+2025-04-26 14:43:15,650 - app.config - INFO - Roast process paused
+2025-04-26 14:43:15,672 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:43:15,672 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:43:15,700 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:43:15,700 - app.config - INFO - Roast process paused
+2025-04-26 14:45:44,419 - app.config - INFO - Shutting down application
+2025-04-26 14:45:44,420 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 14:45:45,037 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 14:45:45,037 - app.config - INFO - Application shutdown complete
+2025-04-26 14:45:48,200 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 14:45:48,200 - app.config - INFO - Simulation monitoring started
+2025-04-26 14:45:48,200 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 14:45:52,348 - app.config - INFO - Roast process reset
+2025-04-26 14:45:56,972 - app.config - INFO - Roast process started
+2025-04-26 14:45:57,015 - app.config - INFO - Heat level set to 10
+2025-04-26 14:46:04,760 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:46:04,760 - app.config - INFO - Roast process paused
+2025-04-26 14:46:04,760 - app.config - INFO - Set roast start time to 1745667956976.0
+2025-04-26 14:46:04,760 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:46:07,334 - app.config - INFO - Roast process started
+2025-04-26 14:46:07,373 - app.config - INFO - Heat level set to 10
+2025-04-26 14:46:28,037 - app.config - INFO - Roast process reset
+2025-04-26 14:46:28,059 - app.config - INFO - Roast process started
+2025-04-26 14:46:28,101 - app.config - INFO - Heat level set to 10
+2025-04-26 14:46:28,128 - app.config - INFO - Roast process paused
+2025-04-26 14:46:28,149 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:46:28,150 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:46:28,150 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:46:28,175 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:46:28,175 - app.config - INFO - Roast process paused
+2025-04-26 14:46:28,175 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:48:52,812 - app.config - INFO - Roast process started
+2025-04-26 14:48:52,853 - app.config - INFO - Heat level set to 10
+2025-04-26 14:49:12,557 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:49:12,558 - app.config - INFO - Roast process paused
+2025-04-26 14:49:12,558 - app.config - INFO - Set roast start time to 1745668132.0
+2025-04-26 14:49:12,559 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:49:16,224 - app.config - INFO - Roast process started
+2025-04-26 14:49:16,274 - app.config - INFO - Heat level set to 10
+2025-04-26 14:49:20,315 - app.config - INFO - Heat level set to 8
+2025-04-26 14:49:23,895 - app.config - INFO - Roast process reset
+2025-04-26 14:49:23,924 - app.config - INFO - Roast process started
+2025-04-26 14:49:23,969 - app.config - INFO - Heat level set to 10
+2025-04-26 14:49:23,999 - app.config - INFO - Roast process paused
+2025-04-26 14:49:24,022 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:49:24,022 - app.config - INFO - Restored 1 data points from client
+2025-04-26 14:49:24,022 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:49:24,049 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:49:24,049 - app.config - INFO - Roast process paused
+2025-04-26 14:49:24,049 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:51:53,746 - app.config - INFO - Shutting down application
+2025-04-26 14:51:53,749 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 14:51:53,762 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 14:51:53,763 - app.config - INFO - Application shutdown complete
+2025-04-26 14:54:25,246 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-26 14:54:25,247 - app.config - INFO - Simulation monitoring started
+2025-04-26 14:54:25,247 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-26 14:54:29,910 - app.config - INFO - Roast process started
+2025-04-26 14:54:29,947 - app.config - INFO - Heat level set to 10
+2025-04-26 14:54:54,990 - app.config - INFO - Heat level set to 8
+2025-04-26 14:54:57,890 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:54:57,891 - app.config - INFO - Roast process paused
+2025-04-26 14:54:57,891 - app.config - INFO - Set roast start time to 1745668469.0
+2025-04-26 14:54:57,891 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:55:01,072 - app.config - INFO - Roast process started
+2025-04-26 14:55:01,119 - app.config - INFO - Heat level set to 8
+2025-04-26 14:55:06,151 - app.config - INFO - Heat level set to 6
+2025-04-26 14:55:16,314 - app.config - INFO - Roast process reset
+2025-04-26 14:55:16,342 - app.config - INFO - Roast process started
+2025-04-26 14:55:16,380 - app.config - INFO - Heat level set to 10
+2025-04-26 14:55:16,406 - app.config - INFO - Roast process paused
+2025-04-26 14:55:16,429 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 14:55:16,429 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:55:16,454 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:55:16,454 - app.config - INFO - Roast process paused
+2025-04-26 14:55:16,454 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:56:15,359 - app.config - INFO - Roast process started
+2025-04-26 14:56:15,387 - app.config - INFO - Heat level set to 10
+2025-04-26 14:56:40,667 - app.config - INFO - Heat level set to 8
+2025-04-26 14:56:47,443 - app.config - INFO - Heat level set to 6
+2025-04-26 14:56:55,431 - app.config - INFO - Heat level set to 5
+2025-04-26 14:56:59,426 - app.config - INFO - Heat level set to 4
+2025-04-26 14:57:00,244 - app.config - INFO - First crack detected
+2025-04-26 14:57:03,531 - app.config - INFO - Heat level set to 3
+2025-04-26 14:57:07,148 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:57:07,148 - app.config - INFO - Roast process paused
+2025-04-26 14:57:07,148 - app.config - INFO - Set roast start time to 1745668575.0
+2025-04-26 14:57:07,148 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-26 14:57:08,707 - app.config - INFO - Roast process started
+2025-04-26 14:57:08,743 - app.config - INFO - Heat level set to 3
+2025-04-26 14:57:09,095 - app.config - INFO - Roast process paused
+2025-04-26 14:57:11,331 - app.config - INFO - Roast process started
+2025-04-26 14:57:13,953 - app.config - INFO - Roast process reset
+2025-04-26 14:57:15,298 - app.config - INFO - Roast process started
+2025-04-26 14:57:15,319 - app.config - INFO - Heat level set to 10
+2025-04-26 14:57:25,792 - app.config - INFO - Roast process reset
+2025-04-26 14:57:26,807 - app.config - INFO - Roast process started
+2025-04-26 14:57:30,529 - app.config - INFO - Roast process reset
+2025-04-26 14:57:36,210 - app.config - INFO - Roast process started
+2025-04-26 14:57:36,241 - app.config - INFO - Heat level set to 10
+2025-04-26 14:58:10,717 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:58:10,718 - app.config - INFO - Roast process paused
+2025-04-26 14:58:10,718 - app.config - INFO - Set roast start time to 1745668656.0
+2025-04-26 14:58:10,718 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 14:58:12,169 - app.config - INFO - Roast process started
+2025-04-26 14:58:12,204 - app.config - INFO - Heat level set to 8
+2025-04-26 14:58:12,288 - app.config - INFO - Heat level set to 6
+2025-04-26 14:58:27,139 - app.config - INFO - First crack detected
+2025-04-26 14:58:40,165 - app.config - INFO - Second crack detected
+2025-04-26 14:59:52,356 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 14:59:52,357 - app.config - INFO - Roast process paused
+2025-04-26 14:59:52,358 - app.config - INFO - Set roast start time to 1745668692.0
+2025-04-26 14:59:52,358 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:01:02,812 - app.config - INFO - Roast process started
+2025-04-26 15:01:02,855 - app.config - INFO - Heat level set to 6
+2025-04-26 15:01:02,913 - app.config - INFO - Heat level set to 3
+2025-04-26 15:01:10,708 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:01:10,709 - app.config - INFO - Roast process paused
+2025-04-26 15:01:10,709 - app.config - INFO - Set roast start time to 1745668862.0
+2025-04-26 15:01:10,709 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:01:12,604 - app.config - INFO - Roast process started
+2025-04-26 15:01:12,651 - app.config - INFO - Heat level set to 3
+2025-04-26 15:01:14,719 - app.config - INFO - Roast process reset
+2025-04-26 15:01:15,891 - app.config - INFO - Roast process started
+2025-04-26 15:01:15,920 - app.config - INFO - Heat level set to 10
+2025-04-26 15:01:39,678 - app.config - INFO - Heat level set to 8
+2025-04-26 15:01:46,708 - app.config - INFO - Heat level set to 6
+2025-04-26 15:01:48,905 - app.config - INFO - Roast process paused
+2025-04-26 15:01:52,628 - app.config - INFO - Roast process reset
+2025-04-26 15:01:55,559 - app.config - INFO - Roast process started
+2025-04-26 15:01:55,593 - app.config - INFO - Heat level set to 10
+2025-04-26 15:01:59,306 - app.config - INFO - Roast process reset
+2025-04-26 15:04:55,292 - app.config - INFO - Roast process started
+2025-04-26 15:04:55,320 - app.config - INFO - Heat level set to 10
+2025-04-26 15:05:07,634 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:05:07,634 - app.config - INFO - Roast process paused
+2025-04-26 15:05:07,634 - app.config - INFO - Set roast start time to 1745669095.0
+2025-04-26 15:05:07,634 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:05:10,508 - app.config - INFO - Roast process started
+2025-04-26 15:05:10,557 - app.config - INFO - Heat level set to 10
+2025-04-26 15:05:22,610 - app.config - INFO - Heat level set to 8
+2025-04-26 15:05:30,609 - app.config - INFO - Heat level set to 6
+2025-04-26 15:05:37,623 - app.config - INFO - Heat level set to 5
+2025-04-26 15:05:41,629 - app.config - INFO - Heat level set to 4
+2025-04-26 15:05:42,298 - app.config - INFO - First crack detected
+2025-04-26 15:05:45,736 - app.config - INFO - Heat level set to 3
+2025-04-26 15:05:54,330 - app.config - INFO - Second crack detected
+2025-04-26 15:19:14,325 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:19:14,326 - app.config - INFO - Roast process paused
+2025-04-26 15:19:14,333 - app.config - INFO - Set roast start time to 1745669095.0
+2025-04-26 15:19:14,333 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:19:19,341 - app.config - INFO - Roast process reset
+2025-04-26 15:19:24,684 - app.config - INFO - Roast process started
+2025-04-26 15:19:24,718 - app.config - INFO - Heat level set to 10
+2025-04-26 15:19:44,842 - app.config - INFO - Heat level set to 8
+2025-04-26 15:19:46,461 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:19:46,462 - app.config - INFO - Roast process paused
+2025-04-26 15:19:46,463 - app.config - INFO - Set roast start time to 1745669964.0
+2025-04-26 15:19:46,463 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:19:49,906 - app.config - INFO - Roast process started
+2025-04-26 15:19:49,959 - app.config - INFO - Heat level set to 10
+2025-04-26 15:19:50,021 - app.config - INFO - Heat level set to 8
+2025-04-26 15:20:08,293 - app.config - INFO - First crack detected
+2025-04-26 15:20:23,175 - app.config - INFO - Second crack detected
+2025-04-26 15:23:28,891 - app.config - INFO - Roast process reset
+2025-04-26 15:23:31,609 - app.config - INFO - Roast process started
+2025-04-26 15:23:31,645 - app.config - INFO - Heat level set to 10
+2025-04-26 15:23:37,831 - app.config - INFO - Roast process reset
+2025-04-26 15:23:39,101 - app.config - INFO - Roast process started
+2025-04-26 15:23:39,138 - app.config - INFO - Heat level set to 10
+2025-04-26 15:24:04,174 - app.config - INFO - Heat level set to 8
+2025-04-26 15:24:12,722 - app.config - INFO - Heat level set to 6
+2025-04-26 15:24:21,684 - app.config - INFO - Heat level set to 5
+2025-04-26 15:24:28,695 - app.config - INFO - First crack detected
+2025-04-26 15:24:28,699 - app.config - INFO - Heat level set to 4
+2025-04-26 15:24:33,203 - app.config - INFO - Heat level set to 3
+2025-04-26 15:24:43,805 - app.config - INFO - Second crack detected
+2025-04-26 15:25:18,175 - app.config - INFO - Roast process paused
+2025-04-26 15:25:18,906 - app.config - INFO - Roast process reset
+2025-04-26 15:25:29,800 - app.config - INFO - Roast process started
+2025-04-26 15:25:29,836 - app.config - INFO - Heat level set to 10
+2025-04-26 15:25:37,056 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:25:37,057 - app.config - INFO - Roast process paused
+2025-04-26 15:25:37,057 - app.config - INFO - Set roast start time to 1745670329.0
+2025-04-26 15:25:37,057 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:27:30,317 - app.config - INFO - Roast process started
+2025-04-26 15:27:30,358 - app.config - INFO - Heat level set to 10
+2025-04-26 15:27:34,492 - app.config - INFO - Roast process paused
+2025-04-26 15:27:35,434 - app.config - INFO - Roast process started
+2025-04-26 15:27:37,210 - app.config - INFO - Roast process paused
+2025-04-26 15:27:38,163 - app.config - INFO - Roast process started
+2025-04-26 15:27:56,263 - app.config - INFO - Heat level set to 8
+2025-04-26 15:27:58,445 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:27:58,445 - app.config - INFO - Roast process paused
+2025-04-26 15:27:58,445 - app.config - INFO - Set roast start time to 1745670329.0
+2025-04-26 15:27:58,445 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:34:58,658 - app.config - INFO - Roast process started
+2025-04-26 15:34:58,699 - app.config - INFO - Heat level set to 10
+2025-04-26 15:34:58,740 - app.config - INFO - Heat level set to 8
+2025-04-26 15:35:03,721 - app.config - INFO - Heat level set to 6
+2025-04-26 15:35:10,731 - app.config - INFO - Heat level set to 5
+2025-04-26 15:35:14,728 - app.config - INFO - Heat level set to 4
+2025-04-26 15:35:15,524 - app.config - INFO - First crack detected
+2025-04-26 15:35:18,999 - app.config - INFO - Heat level set to 3
+2025-04-26 15:35:28,545 - app.config - INFO - Second crack detected
+2025-04-26 15:35:30,018 - app.config - INFO - Roast process paused
+2025-04-26 15:35:30,019 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-26 15:35:30,019 - app.config - INFO - Set roast start time to 1745670329.0
+2025-04-26 15:35:30,019 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-26 15:35:30,051 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:35:30,051 - app.config - INFO - Roast process paused
+2025-04-26 15:35:30,051 - app.config - INFO - Set roast start time to 1745670329.0
+2025-04-26 15:35:30,051 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-26 15:35:41,409 - app.config - INFO - Roast process started
+2025-04-26 15:35:41,602 - app.config - INFO - Second crack detected
+2025-04-26 15:35:50,678 - app.config - INFO - Roast process paused
+2025-04-26 15:35:51,852 - app.config - INFO - Roast process reset
+2025-04-26 15:38:30,658 - app.config - INFO - Roast process started
+2025-04-26 15:38:30,685 - app.config - INFO - Heat level set to 10
+2025-04-26 15:38:35,441 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:38:35,441 - app.config - INFO - Roast process paused
+2025-04-26 15:38:35,441 - app.config - INFO - Set roast start time to 1745671110.0
+2025-04-26 15:38:35,442 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:38:38,362 - app.config - INFO - Roast process started
+2025-04-26 15:38:38,386 - app.config - INFO - Heat level set to 10
+2025-04-26 15:38:58,410 - app.config - INFO - Heat level set to 8
+2025-04-26 15:39:06,408 - app.config - INFO - Heat level set to 6
+2025-04-26 15:39:14,569 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:39:14,570 - app.config - INFO - Roast process paused
+2025-04-26 15:39:14,571 - app.config - INFO - Set roast start time to 1745671110.0
+2025-04-26 15:39:14,571 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:39:17,490 - app.config - INFO - Roast process started
+2025-04-26 15:39:17,510 - app.config - INFO - Heat level set to 10
+2025-04-26 15:39:17,538 - app.config - INFO - Heat level set to 6
+2025-04-26 15:39:18,531 - app.config - INFO - Heat level set to 5
+2025-04-26 15:39:21,121 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-26 15:39:21,121 - app.config - INFO - Roast process paused
+2025-04-26 15:39:21,122 - app.config - INFO - Set roast start time to 1745671110.0
+2025-04-26 15:39:21,122 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-26 15:39:24,744 - app.config - INFO - Roast process started
+2025-04-26 15:39:25,574 - app.config - INFO - Roast process paused
+2025-04-26 15:43:27,052 - app.config - INFO - Roast process started
+2025-04-26 15:43:29,542 - app.config - INFO - Heat level set to 4
+2025-04-26 15:43:30,081 - app.config - INFO - First crack detected
+2025-04-26 15:43:31,184 - app.config - INFO - Heat level set to 4
+2025-04-26 15:43:33,250 - app.config - INFO - Heat level set to 3
+2025-04-26 15:43:42,490 - app.config - INFO - Second crack detected
+2025-04-26 15:45:56,950 - app.config - INFO - Heat level set to 3
+2025-04-26 15:46:00,231 - app.config - INFO - Roast process paused
+2025-04-26 15:46:00,771 - app.config - INFO - Roast process reset
+2025-04-26 15:46:01,454 - app.config - INFO - Roast process started
+2025-04-26 15:46:01,468 - app.config - INFO - Heat level set to 10
+2025-04-26 15:46:34,164 - app.config - INFO - Heat level set to 6
+2025-04-26 15:46:41,188 - app.config - INFO - Heat level set to 5
+2025-04-26 15:46:46,187 - app.config - INFO - Heat level set to 4
+2025-04-26 15:46:46,715 - app.config - INFO - First crack detected
+2025-04-26 15:46:49,245 - app.config - INFO - Heat level set to 3
+2025-04-26 15:46:59,984 - app.config - INFO - Second crack detected
+2025-04-26 15:47:20,738 - app.config - INFO - Roast process paused
+2025-04-26 15:47:21,563 - app.config - INFO - Roast process reset
+2025-04-26 15:51:18,361 - app.config - INFO - Roast process started
+2025-04-26 15:51:18,393 - app.config - INFO - Heat level set to 10
+2025-04-26 15:51:40,423 - app.config - INFO - Heat level set to 8
+2025-04-26 15:51:47,421 - app.config - INFO - Heat level set to 6
+2025-04-26 15:51:57,426 - app.config - INFO - Heat level set to 5
+2025-04-26 15:52:03,423 - app.config - INFO - Heat level set to 4
+2025-04-26 15:52:09,710 - app.config - INFO - Heat level set to 3
+2025-04-26 15:52:12,539 - app.config - INFO - First crack detected
+2025-04-26 15:52:28,650 - app.config - INFO - Second crack detected
+2025-04-26 15:55:51,055 - app.config - INFO - Roast process paused
+2025-04-26 15:55:52,231 - app.config - INFO - Roast process reset
+2025-04-26 15:56:17,768 - app.config - INFO - Roast process started
+2025-04-26 15:56:17,793 - app.config - INFO - Heat level set to 10
+2025-04-26 15:56:22,728 - app.config - INFO - Heat level set to 10
+2025-04-26 15:56:24,862 - app.config - INFO - Roast process paused
+2025-04-26 15:56:25,339 - app.config - INFO - Roast process started
+2025-04-26 15:56:26,189 - app.config - INFO - Roast process paused
+2025-04-26 15:56:26,509 - app.config - INFO - Roast process reset
+2025-04-26 16:11:55,372 - app.config - INFO - Roast process started
+2025-04-26 16:11:55,403 - app.config - INFO - Heat level set to 10
+2025-04-26 16:12:05,914 - app.config - INFO - Heat level set to 10
+2025-04-26 16:12:14,409 - app.config - INFO - Roast process reset
+2025-04-26 16:12:15,389 - app.config - INFO - Roast process started
+2025-04-26 16:12:16,744 - app.config - INFO - Roast process paused
+2025-04-26 18:27:58,462 - app.config - INFO - Shutting down application
+2025-04-26 18:27:58,464 - app.config - INFO - Stopping temperature monitoring
+2025-04-26 18:27:58,548 - app.config - INFO - Temperature monitoring stopped
+2025-04-26 18:27:58,549 - app.config - INFO - Application shutdown complete
+2025-04-27 07:55:04,294 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-27 07:55:04,294 - app.config - INFO - Simulation monitoring started
+2025-04-27 07:55:04,294 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-27 07:55:29,866 - app.config - INFO - Roast process started
+2025-04-27 07:55:29,900 - app.config - INFO - Heat level set to 10
+2025-04-27 07:55:57,937 - app.config - INFO - Heat level set to 8
+2025-04-27 07:56:06,939 - app.config - INFO - Heat level set to 6
+2025-04-27 07:56:11,286 - app.config - INFO - First crack detected
+2025-04-27 07:56:14,023 - app.config - INFO - Heat level set to 5
+2025-04-27 07:56:20,019 - app.config - INFO - Heat level set to 4
+2025-04-27 07:56:22,879 - app.config - INFO - Second crack detected
+2025-04-27 07:56:23,022 - app.config - INFO - Heat level set to 3
+2025-04-27 07:56:48,529 - app.config - INFO - Roast process paused
+2025-04-27 07:56:51,738 - app.config - INFO - Roast process started
+2025-04-27 07:56:52,354 - app.config - INFO - Roast process paused
+2025-04-27 07:57:27,813 - app.config - INFO - Roast process started
+2025-04-27 07:57:32,677 - app.config - INFO - Heat level set to 3
+2025-04-27 08:02:17,702 - app.config - INFO - Shutting down application
+2025-04-27 08:02:17,704 - app.config - INFO - Stopping temperature monitoring
+2025-04-27 08:02:17,888 - app.config - INFO - Temperature monitoring stopped
+2025-04-27 08:02:17,888 - app.config - INFO - Application shutdown complete
+2025-04-27 09:48:56,598 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-27 09:48:56,598 - app.config - INFO - Simulation monitoring started
+2025-04-27 09:48:56,598 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-27 09:57:58,358 - app.config - INFO - Roast process started
+2025-04-27 09:57:58,405 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 09:57:58,405 - app.config - INFO - Roast process paused
+2025-04-27 09:57:58,405 - app.config - INFO - Restored 24 data points from client
+2025-04-27 09:57:58,406 - app.config - INFO - Set roast start time to 1745729847.0
+2025-04-27 09:57:58,406 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-27 09:57:58,436 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 09:57:58,437 - app.config - INFO - Set roast start time to 1745729847.0
+2025-04-27 09:57:58,437 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-27 09:57:58,438 - app.config - INFO - Heat level set to 10
+2025-04-27 09:57:58,454 - app.config - INFO - Roast process paused
+2025-04-27 09:57:58,475 - app.config - INFO - Heat level set to 3
+2025-04-27 09:57:58,477 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 09:57:58,478 - app.config - INFO - Set roast start time to 1745729847.0
+2025-04-27 09:57:58,478 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-27 09:57:58,516 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 09:57:58,517 - app.config - INFO - Roast process paused
+2025-04-27 09:57:58,517 - app.config - INFO - Set roast start time to 1745729847.0
+2025-04-27 09:57:58,517 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-27 09:58:02,423 - app.config - INFO - Roast process reset
+2025-04-27 09:58:14,724 - app.config - INFO - Roast process started
+2025-04-27 09:58:14,741 - app.config - INFO - Heat level set to 10
+2025-04-27 09:58:41,774 - app.config - INFO - Heat level set to 8
+2025-04-27 09:58:50,772 - app.config - INFO - Heat level set to 6
+2025-04-27 09:58:58,767 - app.config - INFO - Heat level set to 5
+2025-04-27 09:59:03,764 - app.config - INFO - Heat level set to 4
+2025-04-27 09:59:04,482 - app.config - INFO - First crack detected
+2025-04-27 09:59:07,839 - app.config - INFO - Heat level set to 3
+2025-04-27 09:59:20,179 - app.config - INFO - Second crack detected
+2025-04-27 10:01:53,660 - app.config - INFO - Roast process reset
+2025-04-27 10:01:54,907 - app.config - INFO - Roast process started
+2025-04-27 10:01:54,939 - app.config - INFO - Heat level set to 10
+2025-04-27 10:02:39,571 - app.config - INFO - First crack detected
+2025-04-27 10:02:50,154 - app.config - INFO - Second crack detected
+2025-04-27 10:05:01,376 - app.config - INFO - Heat level set to 3
+2025-04-27 10:16:25,392 - app.config - INFO - Roast process paused
+2025-04-27 10:16:25,451 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 10:16:25,456 - app.config - INFO - Set roast start time to 1745737314.0
+2025-04-27 10:16:25,456 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-27 10:16:25,490 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 10:16:25,490 - app.config - INFO - Roast process paused
+2025-04-27 10:16:25,496 - app.config - INFO - Set roast start time to 1745737314.0
+2025-04-27 10:16:25,496 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-27 10:16:26,160 - app.config - INFO - Roast process reset
+2025-04-27 10:16:36,670 - app.config - INFO - Roast process started
+2025-04-27 10:16:36,704 - app.config - INFO - Heat level set to 10
+2025-04-27 10:17:01,724 - app.config - INFO - Heat level set to 8
+2025-04-27 10:17:08,718 - app.config - INFO - Heat level set to 6
+2025-04-27 10:17:17,722 - app.config - INFO - Heat level set to 5
+2025-04-27 10:17:19,899 - app.config - INFO - Roast process paused
+2025-04-27 10:17:33,034 - app.config - INFO - Roast process started
+2025-04-27 10:17:33,059 - app.config - INFO - Heat level set to 10
+2025-04-27 10:17:33,076 - app.config - INFO - Heat level set to 5
+2025-04-27 10:17:36,531 - app.config - INFO - First crack detected
+2025-04-27 10:17:36,848 - app.config - INFO - Heat level set to 4
+2025-04-27 10:17:39,650 - app.config - INFO - Heat level set to 4
+2025-04-27 10:17:40,675 - app.config - INFO - Heat level set to 3
+2025-04-27 10:17:48,584 - app.config - INFO - Heat level set to 3
+2025-04-27 10:17:53,459 - app.config - INFO - Second crack detected
+2025-04-27 10:17:53,781 - app.config - INFO - Roast process paused
+2025-04-27 10:17:53,796 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 10:17:53,796 - app.config - INFO - Set roast start time to 1745738253.0
+2025-04-27 10:17:53,797 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-27 10:17:53,855 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 10:17:53,855 - app.config - INFO - Roast process paused
+2025-04-27 10:17:53,855 - app.config - INFO - Set roast start time to 1745738253.0
+2025-04-27 10:17:53,856 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-27 10:18:00,220 - app.config - INFO - Roast process started
+2025-04-27 10:18:00,246 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 10:18:00,247 - app.config - INFO - Roast process paused
+2025-04-27 10:18:00,247 - app.config - INFO - Restored 102 data points from client
+2025-04-27 10:18:00,247 - app.config - INFO - Set roast start time to 1745738253.0
+2025-04-27 10:18:00,247 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-27 10:18:00,315 - app.config - INFO - Heat level set to 3
+2025-04-27 10:18:00,322 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 10:18:00,324 - app.config - INFO - Set roast start time to 1745738253.0
+2025-04-27 10:18:00,326 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-27 10:18:00,394 - app.config - INFO - Second crack detected
+2025-04-27 10:18:01,314 - app.config - INFO - Roast process paused
+2025-04-27 10:18:01,327 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 10:18:01,328 - app.config - INFO - Set roast start time to 1745738253.0
+2025-04-27 10:18:01,328 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-27 10:18:01,416 - app.config - INFO - Second crack detected
+2025-04-27 10:18:01,467 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 10:18:01,468 - app.config - INFO - Roast process paused
+2025-04-27 10:18:01,468 - app.config - INFO - Set roast start time to 1745738253.0
+2025-04-27 10:18:01,468 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-27 10:18:03,065 - app.config - INFO - Roast process reset
+2025-04-27 10:18:05,036 - app.config - INFO - Roast process started
+2025-04-27 10:18:05,049 - app.config - INFO - Heat level set to 10
+2025-04-27 10:18:05,744 - app.config - INFO - Roast process reset
+2025-04-27 10:18:06,775 - app.config - INFO - Roast process started
+2025-04-27 10:18:07,313 - app.config - INFO - Roast process paused
+2025-04-27 10:18:07,728 - app.config - INFO - Roast process started
+2025-04-27 10:18:08,277 - app.config - INFO - Roast process paused
+2025-04-27 10:18:08,699 - app.config - INFO - Roast process started
+2025-04-27 10:18:09,051 - app.config - INFO - Roast process paused
+2025-04-27 10:18:09,471 - app.config - INFO - Roast process started
+2025-04-27 10:18:33,524 - app.config - INFO - Heat level set to 8
+2025-04-27 10:18:41,524 - app.config - INFO - Heat level set to 6
+2025-04-27 10:18:50,516 - app.config - INFO - Heat level set to 5
+2025-04-27 10:18:55,509 - app.config - INFO - Heat level set to 4
+2025-04-27 10:18:56,006 - app.config - INFO - First crack detected
+2025-04-27 10:18:58,572 - app.config - INFO - Heat level set to 3
+2025-04-27 10:19:08,229 - app.config - INFO - Second crack detected
+2025-04-27 10:24:01,759 - app.config - INFO - Heat level set to 3
+2025-04-27 10:27:34,117 - app.config - INFO - Heat level set to 3
+2025-04-27 10:31:28,039 - app.config - INFO - Roast process reset
+2025-04-27 10:33:14,641 - app.config - INFO - Roast process started
+2025-04-27 10:33:14,670 - app.config - INFO - Heat level set to 10
+2025-04-27 10:33:40,689 - app.config - INFO - Heat level set to 8
+2025-04-27 10:33:47,687 - app.config - INFO - Heat level set to 6
+2025-04-27 10:33:59,690 - app.config - INFO - Heat level set to 5
+2025-04-27 10:34:05,692 - app.config - INFO - Heat level set to 4
+2025-04-27 10:34:05,838 - app.config - INFO - First crack detected
+2025-04-27 10:34:08,734 - app.config - INFO - Heat level set to 3
+2025-04-27 10:34:19,887 - app.config - INFO - Second crack detected
+2025-04-27 10:36:11,157 - app.config - INFO - Heat level set to 3
+2025-04-27 10:36:18,806 - app.config - INFO - Roast process paused
+2025-04-27 10:36:19,380 - app.config - INFO - Roast process started
+2025-04-27 10:36:20,191 - app.config - INFO - Roast process reset
+2025-04-27 10:51:48,770 - app.config - INFO - Roast process started
+2025-04-27 10:51:48,789 - app.config - INFO - Heat level set to 10
+2025-04-27 10:52:15,251 - app.config - INFO - Heat level set to 8
+2025-04-27 10:52:19,493 - app.config - INFO - Heat level set to 6
+2025-04-27 10:52:30,272 - app.config - INFO - Heat level set to 5
+2025-04-27 10:52:33,271 - app.config - INFO - Heat level set to 4
+2025-04-27 10:52:33,642 - app.config - INFO - First crack detected
+2025-04-27 10:52:36,306 - app.config - INFO - Heat level set to 3
+2025-04-27 10:52:52,986 - app.config - INFO - Second crack detected
+2025-04-27 10:56:58,314 - app.config - INFO - Heat level set to 3
+2025-04-27 11:06:49,445 - app.config - INFO - Roast process paused
+2025-04-27 11:06:49,513 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 11:06:49,520 - app.config - INFO - Set roast start time to 1745740308.0
+2025-04-27 11:06:49,520 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-27 11:06:49,577 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 11:06:49,577 - app.config - INFO - Roast process paused
+2025-04-27 11:06:49,591 - app.config - INFO - Set roast start time to 1745740308.0
+2025-04-27 11:06:49,592 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-27 11:08:11,532 - app.config - INFO - Roast process started
+2025-04-27 11:08:11,581 - app.config - INFO - Heat level set to 3
+2025-04-27 11:08:15,038 - app.config - INFO - Roast process paused
+2025-04-27 11:08:20,789 - app.config - INFO - Roast process started
+2025-04-27 11:08:20,818 - app.config - INFO - Heat level set to 10
+2025-04-27 11:08:20,860 - app.config - INFO - Heat level set to 3
+2025-04-27 11:08:25,307 - app.config - INFO - Roast process paused
+2025-04-27 12:02:35,209 - app.config - INFO - Roast process started
+2025-04-27 12:02:35,234 - app.config - INFO - Heat level set to 10
+2025-04-27 12:02:35,260 - app.config - INFO - Heat level set to 3
+2025-04-27 12:02:45,903 - app.config - INFO - Roast process paused
+2025-04-27 12:02:47,173 - app.config - INFO - Roast process reset
+2025-04-27 12:02:47,783 - app.config - INFO - Roast process started
+2025-04-27 12:02:47,800 - app.config - INFO - Heat level set to 10
+2025-04-27 12:03:20,718 - app.config - INFO - Heat level set to 6
+2025-04-27 12:03:27,745 - app.config - INFO - Heat level set to 5
+2025-04-27 12:03:31,742 - app.config - INFO - Heat level set to 4
+2025-04-27 12:03:32,069 - app.config - INFO - First crack detected
+2025-04-27 12:03:35,812 - app.config - INFO - Heat level set to 3
+2025-04-27 12:03:45,514 - app.config - INFO - Second crack detected
+2025-04-27 12:08:34,082 - app.config - INFO - Roast process reset
+2025-04-27 12:08:43,566 - app.config - INFO - Roast process started
+2025-04-27 12:08:43,593 - app.config - INFO - Heat level set to 10
+2025-04-27 12:09:08,626 - app.config - INFO - Heat level set to 8
+2025-04-27 12:09:16,615 - app.config - INFO - Heat level set to 6
+2025-04-27 12:09:31,743 - app.config - INFO - Heat level set to 4
+2025-04-27 12:09:32,072 - app.config - INFO - First crack detected
+2025-04-27 12:09:34,827 - app.config - INFO - Heat level set to 3
+2025-04-27 12:09:47,125 - app.config - INFO - Second crack detected
+2025-04-27 12:16:04,727 - app.config - INFO - Heat level set to 3
+2025-04-27 12:16:07,687 - app.config - INFO - Roast process paused
+2025-04-27 12:16:09,239 - app.config - INFO - Roast process reset
+2025-04-27 12:19:09,490 - app.config - INFO - Roast process started
+2025-04-27 12:19:09,510 - app.config - INFO - Heat level set to 10
+2025-04-27 12:19:31,528 - app.config - INFO - Heat level set to 8
+2025-04-27 12:19:40,535 - app.config - INFO - Heat level set to 6
+2025-04-27 12:19:49,534 - app.config - INFO - Heat level set to 5
+2025-04-27 12:19:55,535 - app.config - INFO - Heat level set to 4
+2025-04-27 12:19:55,882 - app.config - INFO - First crack detected
+2025-04-27 12:19:58,583 - app.config - INFO - Heat level set to 3
+2025-04-27 12:20:10,369 - app.config - INFO - Second crack detected
+2025-04-27 12:23:08,444 - app.config - INFO - Heat level set to 3
+2025-04-27 12:23:10,287 - app.config - INFO - Roast process paused
+2025-04-27 12:23:10,925 - app.config - INFO - Roast process started
+2025-04-27 12:23:11,835 - app.config - INFO - Roast process reset
+2025-04-27 12:23:12,490 - app.config - INFO - Roast process started
+2025-04-27 12:23:12,511 - app.config - INFO - Heat level set to 10
+2025-04-27 12:23:37,535 - app.config - INFO - Heat level set to 8
+2025-04-27 12:23:50,538 - app.config - INFO - Heat level set to 6
+2025-04-27 12:23:53,585 - app.config - INFO - Heat level set to 5
+2025-04-27 12:23:59,565 - app.config - INFO - Heat level set to 4
+2025-04-27 12:24:00,210 - app.config - INFO - First crack detected
+2025-04-27 12:24:05,615 - app.config - INFO - Heat level set to 3
+2025-04-27 12:24:15,890 - app.config - INFO - Second crack detected
+2025-04-27 12:27:25,177 - app.config - INFO - Heat level set to 3
+2025-04-27 12:28:03,235 - app.config - INFO - Heat level set to 3
+2025-04-27 12:28:05,671 - app.config - INFO - Roast process paused
+2025-04-27 12:28:11,691 - app.config - INFO - Roast data saved to roast_1745746091.json
+2025-04-27 12:28:35,742 - app.config - INFO - Roast process started
+2025-04-27 12:28:35,817 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-27 12:28:35,818 - app.config - INFO - Roast process paused
+2025-04-27 12:28:35,818 - app.config - INFO - Set roast start time to 1745745792.0
+2025-04-27 12:28:35,818 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-27 12:28:35,907 - app.config - INFO - Heat level set to 3
+2025-04-27 12:28:35,909 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-27 12:28:35,909 - app.config - INFO - Set roast start time to 1745745792.0
+2025-04-27 12:28:35,909 - app.config - INFO - Restored crack status: first=True, second=True
+2025-04-27 12:29:36,476 - app.config - INFO - Roast process reset
+2025-04-27 12:29:37,615 - app.config - INFO - Roast process started
+2025-04-27 12:29:37,647 - app.config - INFO - Heat level set to 10
+2025-04-27 12:29:40,521 - app.config - INFO - Roast process paused
+2025-04-27 12:29:44,252 - app.config - INFO - Roast process started
+2025-04-27 12:29:44,284 - app.config - INFO - Heat level set to 10
+2025-04-27 12:29:47,076 - app.config - INFO - Roast process paused
+2025-04-28 14:09:48,676 - app.config - INFO - Roast process started
+2025-04-28 14:09:48,708 - app.config - INFO - Roast process paused
+2025-04-28 14:09:48,727 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-28 14:09:48,727 - app.config - INFO - Restored 4 data points from client
+2025-04-28 14:09:48,728 - app.config - INFO - Set roast start time to 1745746184.0
+2025-04-28 14:09:48,728 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-28 14:09:48,746 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-28 14:09:48,747 - app.config - INFO - Roast process paused
+2025-04-28 14:09:48,747 - app.config - INFO - Set roast start time to 1745746184.0
+2025-04-28 14:09:48,747 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-28 14:09:50,234 - app.config - INFO - Roast process reset
+2025-04-28 14:13:43,578 - app.config - INFO - Roast process started
+2025-04-28 14:13:56,405 - app.config - INFO - Roast process paused
+2025-04-28 14:14:12,292 - app.config - INFO - Roast process reset
+2025-04-28 14:14:12,584 - app.config - INFO - Roast process reset
+2025-04-28 14:14:23,872 - app.config - INFO - Shutting down application
+2025-04-28 14:14:23,874 - app.config - INFO - Stopping temperature monitoring
+2025-04-28 14:14:23,991 - app.config - INFO - Temperature monitoring stopped
+2025-04-28 14:14:23,992 - app.config - INFO - Application shutdown complete
+2025-04-28 14:14:26,066 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-28 14:14:26,066 - app.config - INFO - Simulation monitoring started
+2025-04-28 14:14:26,066 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-28 14:15:20,327 - app.config - INFO - Roast process started
+2025-04-28 14:15:20,356 - app.config - INFO - Heat level set to 10
+2025-04-28 14:15:37,480 - app.config - INFO - Heat level set to 10
+2025-04-28 14:15:44,511 - app.config - INFO - Heat level set to 8
+2025-04-28 14:15:52,507 - app.config - INFO - Heat level set to 6
+2025-04-28 14:16:01,509 - app.config - INFO - Heat level set to 5
+2025-04-28 14:16:06,505 - app.config - INFO - Heat level set to 4
+2025-04-28 14:16:06,735 - app.config - INFO - First crack detected
+2025-04-28 14:16:10,598 - app.config - INFO - Heat level set to 3
+2025-04-28 14:16:15,299 - app.config - INFO - Roast process paused
+2025-04-30 07:54:24,809 - app.config - INFO - Shutting down application
+2025-04-30 07:54:24,810 - app.config - INFO - Stopping temperature monitoring
+2025-04-30 07:54:24,986 - app.config - INFO - Temperature monitoring stopped
+2025-04-30 07:54:24,986 - app.config - INFO - Application shutdown complete
+2025-04-30 08:42:29,439 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-04-30 08:42:29,440 - app.config - INFO - Simulation monitoring started
+2025-04-30 08:42:29,440 - app.config - INFO - Coffee Roaster API started successfully
+2025-04-30 08:42:57,035 - app.config - INFO - Roast process started
+2025-04-30 08:42:57,094 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-30 08:42:57,094 - app.config - INFO - Roast process paused
+2025-04-30 08:42:57,096 - app.config - INFO - Restored 123 data points from client
+2025-04-30 08:42:57,096 - app.config - INFO - Set roast start time to 1745838920.0
+2025-04-30 08:42:57,096 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-30 08:42:57,132 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-30 08:42:57,132 - app.config - INFO - Set roast start time to 1745838920.0
+2025-04-30 08:42:57,132 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-30 08:42:57,133 - app.config - INFO - Heat level set to 10
+2025-04-30 08:42:57,169 - app.config - INFO - Roast process paused
+2025-04-30 08:42:57,199 - app.config - INFO - Heat level set to 3
+2025-04-30 08:42:57,200 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-30 08:42:57,200 - app.config - INFO - Set roast start time to 1745838920.0
+2025-04-30 08:42:57,200 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-30 08:42:57,265 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-30 08:42:57,265 - app.config - INFO - Roast process paused
+2025-04-30 08:42:57,266 - app.config - INFO - Set roast start time to 1745838920.0
+2025-04-30 08:42:57,266 - app.config - INFO - Restored crack status: first=True, second=False
+2025-04-30 08:42:58,626 - app.config - INFO - Roast process reset
+2025-04-30 09:06:02,821 - app.config - INFO - Roast process started
+2025-04-30 09:06:02,866 - app.config - INFO - Heat level set to 10
+2025-04-30 09:06:07,632 - app.config - INFO - Roast process paused
+2025-04-30 09:08:07,364 - app.config - INFO - Roast process started
+2025-04-30 09:08:07,395 - app.config - INFO - Heat level set to 10
+2025-04-30 09:08:28,431 - app.config - INFO - Heat level set to 8
+2025-04-30 09:08:38,428 - app.config - INFO - Heat level set to 6
+2025-04-30 09:08:44,544 - app.config - INFO - Roast process reset
+2025-04-30 09:21:56,576 - app.config - INFO - Roast process started
+2025-04-30 09:21:56,616 - app.config - INFO - Heat level set to 10
+2025-04-30 09:21:59,097 - app.config - INFO - Roast process paused
+2025-04-30 09:23:01,999 - app.config - INFO - Roast process started
+2025-04-30 09:23:11,518 - app.config - INFO - Roast process paused
+2025-04-30 09:23:12,162 - app.config - INFO - Roast process started
+2025-04-30 09:23:12,650 - app.config - INFO - Roast process paused
+2025-04-30 09:23:13,213 - app.config - INFO - Roast process reset
+2025-04-30 09:24:25,019 - app.config - INFO - Roast process started
+2025-04-30 09:24:50,071 - app.config - INFO - Heat level set to 8
+2025-04-30 09:24:58,027 - app.config - INFO - Heat level set to 6
+2025-04-30 09:25:05,030 - app.config - INFO - Heat level set to 5
+2025-04-30 09:25:11,812 - app.config - INFO - First crack detected
+2025-04-30 09:25:12,031 - app.config - INFO - Heat level set to 4
+2025-04-30 09:25:15,128 - app.config - INFO - Heat level set to 3
+2025-04-30 09:25:25,251 - app.config - INFO - Second crack detected
+2025-04-30 09:26:39,385 - app.config - INFO - Heat level set to 3
+2025-04-30 09:27:44,560 - app.config - INFO - Heat level set to 3
+2025-04-30 09:31:33,784 - app.config - INFO - Roast process paused
+2025-04-30 09:31:34,440 - app.config - INFO - Roast process started
+2025-04-30 09:31:35,081 - app.config - INFO - Roast process reset
+2025-04-30 09:31:36,356 - app.config - INFO - Roast process started
+2025-04-30 09:31:36,389 - app.config - INFO - Heat level set to 10
+2025-04-30 09:31:59,427 - app.config - INFO - Heat level set to 8
+2025-04-30 09:32:07,427 - app.config - INFO - Heat level set to 6
+2025-04-30 09:32:16,425 - app.config - INFO - Heat level set to 5
+2025-04-30 09:32:22,028 - app.config - INFO - First crack detected
+2025-04-30 09:32:22,432 - app.config - INFO - Heat level set to 4
+2025-04-30 09:32:24,797 - app.config - INFO - Heat level set to 3
+2025-04-30 09:32:25,857 - app.config - INFO - Roast process paused
+2025-04-30 09:32:26,793 - app.config - INFO - Roast process reset
+2025-04-30 09:32:28,485 - app.config - INFO - Roast process started
+2025-04-30 09:32:28,518 - app.config - INFO - Heat level set to 10
+2025-04-30 09:32:32,185 - app.config - INFO - Roast process reset
+2025-04-30 09:32:35,344 - app.config - INFO - Roast process reset
+2025-04-30 09:32:36,699 - app.config - INFO - Roast process started
+2025-04-30 09:32:38,516 - app.config - INFO - Roast process reset
+2025-04-30 09:33:48,437 - app.config - INFO - Roast process started
+2025-04-30 09:33:53,706 - app.config - INFO - Roast process reset
+2025-04-30 09:33:54,832 - app.config - INFO - Roast process started
+2025-04-30 09:33:54,865 - app.config - INFO - Heat level set to 10
+2025-04-30 09:34:03,230 - app.config - INFO - Roast process reset
+2025-04-30 09:34:04,540 - app.config - INFO - Roast process reset
+2025-04-30 09:34:05,366 - app.config - INFO - Roast process reset
+2025-04-30 09:40:58,572 - app.config - INFO - Roast process started
+2025-04-30 09:41:21,637 - app.config - INFO - Heat level set to 8
+2025-04-30 09:41:28,315 - app.config - INFO - Heat level set to 8
+2025-04-30 09:41:30,347 - app.config - INFO - Heat level set to 6
+2025-04-30 09:41:36,345 - app.config - INFO - Heat level set to 5
+2025-04-30 09:41:40,348 - app.config - INFO - Heat level set to 4
+2025-04-30 09:41:40,984 - app.config - INFO - First crack detected
+2025-04-30 09:41:44,439 - app.config - INFO - Heat level set to 3
+2025-04-30 09:41:53,389 - app.config - INFO - Second crack detected
+2025-04-30 09:47:04,300 - app.config - INFO - Heat level set to 3
+2025-04-30 09:47:05,847 - app.config - INFO - Roast process paused
+2025-04-30 09:47:07,103 - app.config - INFO - Roast process reset
+2025-04-30 09:47:09,399 - app.config - INFO - Roast process started
+2025-04-30 09:47:09,419 - app.config - INFO - Heat level set to 10
+2025-04-30 09:47:16,027 - app.config - INFO - Heat level set to 10
+2025-04-30 09:47:23,883 - app.config - INFO - Roast process paused
+2025-04-30 09:47:27,265 - app.config - INFO - Roast process started
+2025-04-30 09:47:27,302 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-30 09:47:27,303 - app.config - INFO - Roast process paused
+2025-04-30 09:47:27,303 - app.config - INFO - Restored 72 data points from client
+2025-04-30 09:47:27,304 - app.config - INFO - Set roast start time to 1745995629.0
+2025-04-30 09:47:27,304 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-30 09:47:27,335 - app.config - INFO - Heat level set to 10
+2025-04-30 09:47:27,336 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-30 09:47:27,336 - app.config - INFO - Set roast start time to 1745995629.0
+2025-04-30 09:47:27,336 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-30 09:47:31,481 - app.config - INFO - Roast process paused
+2025-04-30 09:47:34,354 - app.config - INFO - Roast process started
+2025-04-30 09:47:34,389 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-04-30 09:47:34,389 - app.config - INFO - Roast process paused
+2025-04-30 09:47:34,390 - app.config - INFO - Restored 93 data points from client
+2025-04-30 09:47:34,390 - app.config - INFO - Set roast start time to 1745995629.0
+2025-04-30 09:47:34,390 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-30 09:47:34,425 - app.config - INFO - Heat level set to 10
+2025-04-30 09:47:34,426 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-04-30 09:47:34,429 - app.config - INFO - Set roast start time to 1745995629.0
+2025-04-30 09:47:34,429 - app.config - INFO - Restored crack status: first=False, second=False
+2025-04-30 09:47:40,452 - app.config - INFO - Heat level set to 8
+2025-04-30 09:47:47,452 - app.config - INFO - Heat level set to 6
+2025-04-30 09:47:56,456 - app.config - INFO - Heat level set to 5
+2025-04-30 09:48:00,457 - app.config - INFO - Heat level set to 4
+2025-04-30 09:48:00,671 - app.config - INFO - First crack detected
+2025-04-30 09:48:04,544 - app.config - INFO - Heat level set to 3
+2025-04-30 09:48:14,900 - app.config - INFO - Second crack detected
+2025-04-30 09:48:23,888 - app.config - INFO - Heat level set to 3
+2025-04-30 09:48:31,375 - app.config - INFO - Heat level set to 3
+2025-04-30 09:50:41,122 - app.config - INFO - Heat level set to 3
+2025-04-30 09:50:43,077 - app.config - INFO - Roast process paused
+2025-04-30 09:50:44,300 - app.config - INFO - Roast process reset
+2025-04-30 09:50:45,024 - app.config - INFO - Roast process started
+2025-04-30 09:50:45,048 - app.config - INFO - Heat level set to 10
+2025-04-30 09:50:52,351 - app.config - INFO - Heat level set to 10
+2025-04-30 09:51:10,375 - app.config - INFO - Heat level set to 8
+2025-04-30 09:51:12,500 - app.config - INFO - Heat level set to 8
+2025-04-30 09:51:19,406 - app.config - INFO - Heat level set to 8
+2025-04-30 09:51:21,433 - app.config - INFO - Heat level set to 6
+2025-04-30 09:51:27,798 - app.config - INFO - Roast process reset
+2025-04-30 09:51:28,730 - app.config - INFO - Roast process started
+2025-04-30 09:51:28,762 - app.config - INFO - Heat level set to 10
+2025-04-30 09:51:53,799 - app.config - INFO - Heat level set to 8
+2025-04-30 09:51:59,790 - app.config - INFO - Heat level set to 6
+2025-04-30 09:52:11,796 - app.config - INFO - Heat level set to 5
+2025-04-30 09:52:16,791 - app.config - INFO - Heat level set to 4
+2025-04-30 09:52:18,122 - app.config - INFO - First crack detected
+2025-04-30 09:52:20,852 - app.config - INFO - Heat level set to 3
+2025-04-30 09:52:31,526 - app.config - INFO - Second crack detected
+2025-04-30 10:01:00,292 - app.config - INFO - Heat level set to 3
+2025-04-30 10:01:09,014 - app.config - INFO - Heat level set to 3
+2025-04-30 10:01:11,927 - app.config - INFO - Roast process reset
+2025-04-30 10:01:13,395 - app.config - INFO - Roast process reset
+2025-04-30 10:01:14,143 - app.config - INFO - Roast process started
+2025-04-30 10:01:14,181 - app.config - INFO - Heat level set to 10
+2025-04-30 10:01:21,220 - app.config - INFO - Heat level set to 10
+2025-04-30 10:01:26,367 - app.config - INFO - Heat level set to 10
+2025-04-30 10:01:31,546 - app.config - INFO - Roast process reset
+2025-04-30 10:01:32,866 - app.config - INFO - Roast process started
+2025-04-30 10:01:35,048 - app.config - INFO - Roast process reset
+2025-04-30 13:49:28,388 - app.config - INFO - Roast process started
+2025-04-30 13:49:28,418 - app.config - INFO - Heat level set to 10
+2025-04-30 13:49:41,659 - app.config - INFO - Roast process paused
+2025-04-30 13:57:01,928 - app.config - INFO - Shutting down application
+2025-04-30 13:57:01,930 - app.config - INFO - Stopping temperature monitoring
+2025-04-30 13:57:02,078 - app.config - INFO - Temperature monitoring stopped
+2025-04-30 13:57:02,079 - app.config - INFO - Application shutdown complete
+2025-05-05 17:51:26,207 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-05 17:51:26,208 - app.config - INFO - Simulation monitoring started
+2025-05-05 17:51:26,208 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-05 17:56:36,176 - app.config - INFO - Shutting down application
+2025-05-05 17:56:36,178 - app.config - INFO - Stopping temperature monitoring
+2025-05-05 17:56:36,380 - app.config - INFO - Temperature monitoring stopped
+2025-05-05 17:56:36,380 - app.config - INFO - Application shutdown complete

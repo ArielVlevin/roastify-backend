@@ -2,7 +2,7 @@
 API routes for the roasting process.
 """
 from fastapi import APIRouter, HTTPException, BackgroundTasks, Depends
-from typing import List, Dict, Any
+from typing import List, Dict, Optional, Any
 from pydantic import BaseModel
 
 from app.models.schemas import (
@@ -92,19 +92,24 @@ async def get_crack_status():
     status = monitoring.get_crack_status()
     return status
 
-# הוספת נקודת קצה חדשה לסנכרון מצב
 
 class SyncStateRequest(BaseModel):
     """Request model for syncing state."""
     is_roasting: bool
     data: List[Dict[str, float]] = []
     start_time: float = 0
+    crack_status: Optional[Dict[str, bool]] = None
 
 class SyncStateResponse(BaseModel):
     """Response model for sync state."""
     is_roasting: bool
-    data_points: int
+    temperature: float
+    heat_level: int
+    elapsed_time: float
     start_time: float
+    data_points: List[Dict[str, float]]
+    crack_status: Dict[str, bool]
+    message: str = "State synchronized successfully"
 
 @router.post("/sync-state", response_model=SyncStateResponse)
 async def sync_roast_state(request: SyncStateRequest):
@@ -117,6 +122,7 @@ async def sync_roast_state(request: SyncStateRequest):
     client_is_roasting = request.is_roasting
     client_data = request.data
     client_start_time = request.start_time
+    client_crack_status = request.crack_status
     
     # If client has valid data but server thinks we're still roasting,
     # trust the client and update server state
@@ -139,11 +145,79 @@ async def sync_roast_state(request: SyncStateRequest):
         # Update start time if needed
         if client_start_time > 0:
             monitoring.set_start_time(client_start_time)
+            
+        # Update crack status if provided
+        if client_crack_status is not None:
+            # Ensure the function exists in monitoring module
+            if hasattr(monitoring, 'restore_crack_status'):
+                monitoring.restore_crack_status(
+                    client_crack_status.get("first", False),
+                    client_crack_status.get("second", False)
+                )
+            else:
+                logger.warning("Cannot restore crack status: function not implemented")
     
-    # Return current server state after sync
-    server_data = monitoring.get_roast_data()
+    # Get current status after sync
+    status = monitoring.get_status()
+    
+    # Get crack status
+    if hasattr(monitoring, 'get_crack_status'):
+        crack_status = monitoring.get_crack_status()
+    else:
+        # Fallback if function doesn't exist
+        crack_status = {"first": False, "second": False}
+    
+    # Get all data points
+    data_points = monitoring.get_roast_data()
+    
+    # Return enhanced server state after sync
     return {
         "is_roasting": monitoring.is_roasting,
-        "data_points": len(server_data),
-        "start_time": monitoring.roast_start_time
+        "temperature": status["temperature"],
+        "heat_level": status["heat_level"],
+        "elapsed_time": status["elapsed_time"],
+        "start_time": monitoring.roast_start_time,
+        "data_points": data_points,
+        "crack_status": crack_status,
+        "message": "State synchronized successfully"
     }
+    
+from app.core import  simulator
+
+    
+class ForceResetResponse(BaseModel):
+    status: str
+    message: str
+
+@router.post("/force-reset", response_model=ForceResetResponse)
+async def force_reset_roast():
+    """
+    Force reset the roast process, even if one is in progress.
+    This is a more aggressive reset for recovery scenarios.
+    """
+    try:
+        # Stop monitoring if active
+        monitoring.stop_monitoring()
+        
+        # Reset roast state
+        monitoring.reset_roast()
+        
+        # Reset start time to 0
+        monitoring.set_start_time(0)
+        
+        # Reset simulator to room temperature
+        simulator.reset_simulator()
+        simulator.current_temperature = 70.0  # Start at room temperature
+        
+        # Restart monitoring
+        monitoring.start_monitoring()
+        
+        return {
+            "status": "success",
+            "message": "Roast forcefully reset and monitoring restarted"
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to force reset roast: {str(e)}"
+        )

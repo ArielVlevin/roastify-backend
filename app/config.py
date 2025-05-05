@@ -47,7 +47,7 @@ class Settings(BaseSettings):
     LOGS_DIRECTORY: str = "roast_logs"
     
     # Advanced settings
-    TEMPERATURE_UPDATE_INTERVAL: float = 0.6  # Seconds between temperature updates
+    TEMPERATURE_UPDATE_INTERVAL: float = 0.2  # Seconds between temperature updates
     
     # Pydantic 2.x uses model_config instead of Config class
     model_config = SettingsConfigDict(
