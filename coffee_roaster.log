@@ -1299,3 +1299,1137 @@
 2025-05-05 17:56:36,178 - app.config - INFO - Stopping temperature monitoring
 2025-05-05 17:56:36,380 - app.config - INFO - Temperature monitoring stopped
 2025-05-05 17:56:36,380 - app.config - INFO - Application shutdown complete
+2025-05-05 18:01:27,796 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-05 18:01:27,796 - app.config - INFO - Simulation monitoring started
+2025-05-05 18:01:27,796 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-05 19:11:51,408 - app.config - INFO - Roast process started
+2025-05-05 19:11:51,444 - app.config - INFO - Heat level set to 10
+2025-05-05 19:11:56,149 - app.config - INFO - Roast process paused
+2025-05-05 19:13:28,446 - app.config - INFO - Roast process started
+2025-05-05 19:13:28,492 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-05 19:13:28,492 - app.config - INFO - Roast process paused
+2025-05-05 19:13:28,493 - app.config - INFO - Restored 9 data points from client
+2025-05-05 19:13:28,493 - app.config - INFO - Set roast start time to 1746461511.0
+2025-05-05 19:13:28,493 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-05 19:13:28,529 - app.config - INFO - Heat level set to 10
+2025-05-05 19:13:28,530 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-05 19:13:28,530 - app.config - INFO - Set roast start time to 1746461511.0
+2025-05-05 19:13:28,530 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-05 19:13:33,456 - app.config - INFO - Heat level set to 10
+2025-05-05 19:13:44,488 - app.config - INFO - Heat level set to 8
+2025-05-05 19:13:52,487 - app.config - INFO - Heat level set to 6
+2025-05-05 19:14:00,486 - app.config - INFO - Heat level set to 5
+2025-05-05 19:14:05,175 - app.config - INFO - First crack detected
+2025-05-05 19:14:05,491 - app.config - INFO - Heat level set to 4
+2025-05-05 19:14:07,534 - app.config - INFO - Heat level set to 3
+2025-05-05 19:14:12,654 - app.config - INFO - Heat level set to 3
+2025-05-05 19:14:18,011 - app.config - INFO - Second crack detected
+2025-05-05 19:14:24,103 - app.config - INFO - Heat level set to 3
+2025-05-05 19:14:27,788 - app.config - INFO - Heat level set to 3
+2025-05-05 19:14:47,134 - app.config - INFO - Heat level set to 3
+2025-05-05 19:15:43,628 - app.config - INFO - Heat level set to 3
+2025-05-05 19:17:24,813 - app.config - INFO - Roast process reset
+2025-05-05 19:46:14,405 - app.config - INFO - Roast process started
+2025-05-05 19:46:14,429 - app.config - INFO - Heat level set to 10
+2025-05-05 19:46:38,981 - app.config - INFO - Heat level set to 8
+2025-05-05 19:46:48,016 - app.config - INFO - Heat level set to 6
+2025-05-05 19:46:56,017 - app.config - INFO - Heat level set to 5
+2025-05-05 19:46:59,035 - app.config - INFO - Heat level set to 4
+2025-05-05 19:47:00,204 - app.config - INFO - First crack detected
+2025-05-05 19:47:05,071 - app.config - INFO - Heat level set to 3
+2025-05-05 19:47:16,880 - app.config - INFO - Second crack detected
+2025-05-05 19:51:57,069 - app.config - INFO - Heat level set to 3
+2025-05-05 20:01:15,145 - app.config - INFO - Roast process paused
+2025-05-05 20:01:15,201 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-05 20:01:15,207 - app.config - INFO - Set roast start time to 1746463574.0
+2025-05-05 20:01:15,207 - app.config - INFO - Restored crack status: first=True, second=True
+2025-05-05 20:01:15,261 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-05 20:01:15,261 - app.config - INFO - Roast process paused
+2025-05-05 20:01:15,267 - app.config - INFO - Set roast start time to 1746463574.0
+2025-05-05 20:01:15,267 - app.config - INFO - Restored crack status: first=True, second=True
+2025-05-05 20:02:42,484 - app.config - INFO - Roast process started
+2025-05-05 20:02:44,129 - app.config - INFO - Roast process paused
+2025-05-05 20:02:45,197 - app.config - INFO - Roast process reset
+2025-05-05 20:02:46,854 - app.config - INFO - Roast process reset
+2025-05-05 20:02:47,367 - app.config - INFO - Roast process started
+2025-05-05 20:02:47,393 - app.config - INFO - Heat level set to 10
+2025-05-05 20:02:49,150 - app.config - INFO - Roast process paused
+2025-05-05 20:02:49,814 - app.config - INFO - Roast process reset
+2025-05-05 20:12:09,272 - app.config - INFO - Roast process started
+2025-05-05 20:12:09,302 - app.config - INFO - Heat level set to 10
+2025-05-05 20:12:34,335 - app.config - INFO - Heat level set to 8
+2025-05-05 20:12:39,334 - app.config - INFO - Heat level set to 6
+2025-05-05 20:12:49,339 - app.config - INFO - Heat level set to 5
+2025-05-05 20:12:54,335 - app.config - INFO - Heat level set to 4
+2025-05-05 20:12:54,691 - app.config - INFO - First crack detected
+2025-05-05 20:12:58,420 - app.config - INFO - Heat level set to 3
+2025-05-05 20:13:06,309 - app.config - INFO - Second crack detected
+2025-05-05 20:13:26,449 - app.config - INFO - Heat level set to 3
+2025-05-05 20:17:23,410 - app.config - INFO - Heat level set to 3
+2025-05-05 20:22:53,973 - app.config - INFO - Roast process paused
+2025-05-05 20:22:58,895 - app.config - INFO - Roast process reset
+2025-05-05 20:26:07,868 - app.config - INFO - Roast process started
+2025-05-05 20:26:07,892 - app.config - INFO - Heat level set to 10
+2025-05-05 20:26:31,910 - app.config - INFO - Heat level set to 8
+2025-05-05 20:26:38,933 - app.config - INFO - Heat level set to 6
+2025-05-05 20:26:46,914 - app.config - INFO - Heat level set to 5
+2025-05-05 20:26:50,914 - app.config - INFO - Heat level set to 4
+2025-05-05 20:26:51,319 - app.config - INFO - First crack detected
+2025-05-05 20:26:55,003 - app.config - INFO - Heat level set to 3
+2025-05-05 20:27:05,757 - app.config - INFO - Second crack detected
+2025-05-05 20:27:10,811 - app.config - INFO - Heat level set to 3
+2025-05-05 20:33:22,133 - app.config - INFO - Heat level set to 3
+2025-05-05 20:35:18,895 - app.config - INFO - Heat level set to 3
+2025-05-05 20:35:34,617 - app.config - INFO - Roast process reset
+2025-05-05 20:36:00,365 - app.config - INFO - Roast process started
+2025-05-05 20:36:00,393 - app.config - INFO - Heat level set to 10
+2025-05-05 20:36:31,423 - app.config - INFO - Heat level set to 8
+2025-05-05 20:36:44,421 - app.config - INFO - Heat level set to 6
+2025-05-05 20:36:51,372 - app.config - INFO - First crack detected
+2025-05-05 20:36:54,505 - app.config - INFO - Heat level set to 5
+2025-05-05 20:37:01,037 - app.config - INFO - Heat level set to 4
+2025-05-05 20:37:03,485 - app.config - INFO - Heat level set to 3
+2025-05-05 20:37:03,512 - app.config - INFO - Roast process reset
+2025-05-05 20:48:37,693 - app.config - INFO - Roast process started
+2025-05-05 20:48:37,727 - app.config - INFO - Heat level set to 10
+2025-05-05 20:48:45,778 - app.config - INFO - Heat level set to 10
+2025-05-05 20:49:02,809 - app.config - INFO - Heat level set to 8
+2025-05-05 20:49:10,924 - app.config - INFO - Heat level set to 6
+2025-05-05 20:49:24,571 - app.config - INFO - First crack detected
+2025-05-05 20:49:37,994 - app.config - INFO - Second crack detected
+2025-05-05 20:49:52,903 - app.config - INFO - Heat level set to 3
+2025-05-05 20:49:53,977 - app.config - INFO - Roast process reset
+2025-05-06 01:05:30,211 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-06 01:05:30,211 - app.config - INFO - Simulation monitoring started
+2025-05-06 01:05:30,211 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-06 10:41:19,859 - app.config - INFO - Roast process started
+2025-05-06 10:41:19,888 - app.config - INFO - Heat level set to 10
+2025-05-06 10:41:39,911 - app.config - INFO - Heat level set to 8
+2025-05-06 10:41:47,915 - app.config - INFO - Heat level set to 6
+2025-05-06 10:41:58,919 - app.config - INFO - Heat level set to 5
+2025-05-06 10:42:03,916 - app.config - INFO - Heat level set to 4
+2025-05-06 10:42:05,571 - app.config - INFO - First crack detected
+2025-05-06 10:42:09,009 - app.config - INFO - Heat level set to 3
+2025-05-06 10:42:22,065 - app.config - INFO - Second crack detected
+2025-05-06 10:42:36,089 - app.config - INFO - Heat level set to 3
+2025-05-06 10:55:48,542 - app.config - INFO - Roast process reset
+2025-05-06 10:56:10,870 - app.config - INFO - Roast process started
+2025-05-06 10:56:10,894 - app.config - INFO - Heat level set to 10
+2025-05-06 10:56:34,919 - app.config - INFO - Heat level set to 8
+2025-05-06 10:56:44,575 - app.config - INFO - Roast process paused
+2025-05-06 11:28:27,424 - app.config - INFO - Roast process started
+2025-05-06 11:28:27,470 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-06 11:28:27,470 - app.config - INFO - Roast process paused
+2025-05-06 11:28:27,470 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 11:28:27,470 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 11:28:27,534 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-06 11:28:27,534 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 11:28:27,534 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 11:28:27,535 - app.config - INFO - Heat level set to 8
+2025-05-06 11:28:27,562 - app.config - INFO - Roast process paused
+2025-05-06 11:28:27,587 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-06 11:28:27,588 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 11:28:27,588 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 11:28:27,616 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-06 11:28:27,616 - app.config - INFO - Roast process paused
+2025-05-06 11:28:27,616 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 11:28:27,616 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:35,601 - app.config - INFO - Roast process started
+2025-05-06 12:53:35,653 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-06 12:53:35,653 - app.config - INFO - Roast process paused
+2025-05-06 12:53:35,654 - app.config - INFO - Restored 39 data points from client
+2025-05-06 12:53:35,654 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:35,654 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:35,719 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-06 12:53:35,719 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:35,719 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:35,720 - app.config - INFO - Heat level set to 8
+2025-05-06 12:53:35,747 - app.config - INFO - Roast process paused
+2025-05-06 12:53:35,776 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-06 12:53:35,777 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:35,777 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:35,800 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-06 12:53:35,800 - app.config - INFO - Roast process paused
+2025-05-06 12:53:35,801 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:35,801 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:42,667 - app.config - INFO - Roast process started
+2025-05-06 12:53:42,711 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-06 12:53:42,711 - app.config - INFO - Roast process paused
+2025-05-06 12:53:42,711 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:42,711 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:42,776 - app.config - INFO - Heat level set to 6
+2025-05-06 12:53:42,777 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-06 12:53:42,778 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:42,778 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:42,804 - app.config - INFO - Roast process paused
+2025-05-06 12:53:42,832 - app.config - INFO - Syncing: Client is roasting but server wasn't. Updating server state.
+2025-05-06 12:53:42,832 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:42,832 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:42,858 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-06 12:53:42,859 - app.config - INFO - Roast process paused
+2025-05-06 12:53:42,859 - app.config - INFO - Set roast start time to 1746518170.0
+2025-05-06 12:53:42,859 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-06 12:53:44,114 - app.config - INFO - Roast process reset
+2025-05-06 12:53:44,996 - app.config - INFO - Roast process started
+2025-05-06 12:53:45,023 - app.config - INFO - Heat level set to 10
+2025-05-06 12:53:47,857 - app.config - INFO - Roast process reset
+2025-05-06 15:39:58,538 - app.config - INFO - Roast process reset
+2025-05-06 15:39:58,973 - app.config - INFO - Roast process reset
+2025-05-06 23:08:03,099 - app.config - INFO - Roast process started
+2025-05-06 23:08:03,127 - app.config - INFO - Heat level set to 10
+2025-05-06 23:08:06,593 - app.config - INFO - Roast process paused
+2025-05-06 23:08:31,064 - app.config - INFO - Roast process reset
+2025-05-07 09:58:05,105 - app.config - INFO - Roast process started
+2025-05-07 09:58:05,207 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,235 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,265 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,293 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,323 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,352 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,383 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,410 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,440 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,468 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,479 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,485 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,491 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,501 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,511 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,520 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,528 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,537 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,546 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,554 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,563 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,572 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,580 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,589 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,597 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,605 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,614 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,622 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,630 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,638 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,645 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,653 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,662 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,671 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,679 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,687 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,695 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,704 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,715 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,721 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,729 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,737 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,745 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,758 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,767 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,775 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,804 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,832 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,859 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,886 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,914 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:05,964 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,619 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,658 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,700 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,740 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,778 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,814 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,849 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,888 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,922 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,947 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,956 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,965 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,974 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,983 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:13,991 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,000 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,010 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,019 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,028 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,037 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,046 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,055 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,063 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,072 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,080 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,091 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,098 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,107 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,115 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,124 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,131 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,165 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,197 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,230 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,263 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,297 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,329 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,366 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,399 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,432 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,469 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,501 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,535 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,545 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,552 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,561 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,572 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,577 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,585 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,594 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,602 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,612 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:14,637 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:49,366 - app.config - INFO - First crack detected
+2025-05-07 09:58:50,249 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,307 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,363 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,416 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,469 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,521 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,569 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,588 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,600 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,612 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,626 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,637 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,649 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,662 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,673 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,685 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,697 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,708 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,720 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,768 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,817 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,867 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,915 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:50,963 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,012 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,062 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,111 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,156 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,185 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,196 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,211 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,217 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,228 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,242 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,251 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,262 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,277 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,283 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,294 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,307 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,316 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,325 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,341 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,349 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,357 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,367 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,378 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,389 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,399 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,410 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,421 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,432 - app.config - INFO - Heat level set to 10
+2025-05-07 09:58:51,459 - app.config - INFO - Heat level set to 10
+2025-05-07 09:59:00,793 - app.config - INFO - Second crack detected
+2025-05-07 10:00:00,110 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,135 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,243 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,293 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,354 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,410 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,466 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,524 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,545 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,561 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,578 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,592 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,607 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,622 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,643 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,660 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,675 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,688 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,703 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,718 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,733 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,747 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,761 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,775 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,789 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,806 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,817 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,830 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,844 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,857 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,872 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,886 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,897 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,914 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:00,970 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,023 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,079 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,132 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,186 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,240 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,292 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,346 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,399 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,427 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,442 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,454 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,467 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,480 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,494 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,507 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,519 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,539 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:01,566 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:03,878 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:03,947 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,005 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,064 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,122 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,175 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,224 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,241 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,260 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,276 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,293 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,308 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,324 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,341 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,357 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,371 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,386 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,437 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,489 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,535 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,584 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,635 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,683 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,731 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,779 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,829 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,852 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,867 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,883 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,899 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,915 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,931 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,947 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,963 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,979 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:04,994 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,009 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,024 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,038 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,054 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,069 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,084 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,099 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,114 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,130 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,149 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,160 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,175 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,190 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,207 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,222 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,237 - app.config - INFO - Heat level set to 10
+2025-05-07 10:00:05,270 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,167 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,242 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,309 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,371 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,434 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,492 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,549 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,610 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,667 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,721 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,775 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,805 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,824 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,842 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,860 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,877 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,894 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,917 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,931 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,948 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,967 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,984 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:51,999 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,018 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,033 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,051 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,067 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,085 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,101 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,119 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,139 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,156 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,176 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,193 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,210 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,226 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,242 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,297 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,353 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,409 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,463 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,523 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,583 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,638 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,691 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,746 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,788 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,802 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,823 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,837 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,851 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,872 - app.config - INFO - Heat level set to 10
+2025-05-07 10:04:52,926 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,449 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,543 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,614 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,683 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,754 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,818 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,884 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:10,950 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,016 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,081 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,144 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,210 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,274 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,331 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,358 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,396 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,423 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,450 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,476 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,503 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,530 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,556 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,582 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,608 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,634 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,659 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,686 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,749 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,812 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,876 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:11,941 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,005 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,074 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,138 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,202 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,266 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,307 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,334 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,361 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,385 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,411 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,437 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,465 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,491 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,517 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,542 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,568 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,593 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,619 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,645 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,676 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,699 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:12,783 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,466 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,556 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,624 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,689 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,755 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,821 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,885 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:32,946 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,009 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,071 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,129 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,192 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,251 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,295 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,335 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,372 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,401 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,429 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,457 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,484 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,511 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,537 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,564 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,591 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,617 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,645 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,672 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,698 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,758 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,816 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,875 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,933 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:33,995 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,050 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,108 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,170 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,230 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,271 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,296 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,321 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,348 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,374 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,399 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,424 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,449 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,476 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,504 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,528 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,554 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,580 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,607 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,632 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:34,676 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,235 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,329 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,397 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,465 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,533 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,608 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,667 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,732 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,796 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,858 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,920 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:52,983 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,022 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,052 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,128 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,159 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,160 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,185 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,205 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,234 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,262 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,290 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,319 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,346 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,374 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,402 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,466 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,526 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,587 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,652 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,717 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,797 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,860 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,922 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:53,985 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,025 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,054 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,081 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,109 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,138 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,167 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,203 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,230 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,256 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,286 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,313 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,340 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,368 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,396 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,424 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,484 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,542 - app.config - INFO - Heat level set to 10
+2025-05-07 10:05:54,622 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:03,681 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:03,779 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:03,849 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:03,917 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:03,985 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,054 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,120 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,186 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,260 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,326 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,388 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,453 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,519 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,581 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,624 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,656 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,684 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,713 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,742 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,771 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,801 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,832 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,864 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,894 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,923 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,951 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:04,979 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,009 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,071 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,133 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,198 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,264 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,327 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,391 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,454 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,517 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,578 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,620 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,649 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,677 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,707 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,736 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,767 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,796 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,823 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,852 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,881 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,909 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,938 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,966 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:05,994 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:06,022 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:06,101 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:26,449 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:26,569 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:26,725 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:26,881 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:27,032 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:27,178 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:27,321 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:27,497 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:27,625 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:27,768 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:27,910 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:28,050 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:28,189 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:28,326 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:28,466 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:28,608 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:28,762 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:28,902 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,040 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,178 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,320 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,453 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,587 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,724 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,862 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:29,996 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:30,131 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:30,295 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:30,435 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:30,576 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:30,714 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:30,852 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:30,989 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:31,124 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:31,261 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:31,397 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:31,547 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:31,686 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:31,830 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:31,967 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:32,104 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:32,241 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:32,376 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:32,511 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:32,648 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:32,794 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:32,933 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:33,069 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:33,205 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:33,339 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:33,469 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:33,622 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:33,778 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:38,051 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:38,167 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:38,311 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:38,463 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:38,602 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:38,746 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:38,912 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:39,050 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:39,188 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:39,322 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:39,458 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:39,594 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:39,730 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:39,877 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,019 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,157 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,294 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,430 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,565 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,699 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,834 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:40,970 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:41,106 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:41,239 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:41,393 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:41,531 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:41,670 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:41,807 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:41,947 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:42,083 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:42,217 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:42,350 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:42,489 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:42,635 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:42,766 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:42,900 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,031 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,163 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,297 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,427 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,557 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,691 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,823 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:43,967 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:44,099 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:44,237 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:44,373 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:44,510 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:44,645 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:44,795 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:44,930 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:45,060 - app.config - INFO - Heat level set to 10
+2025-05-07 10:06:45,204 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:20,181 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:20,303 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:20,458 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:20,616 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:20,808 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:20,975 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:21,123 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:21,272 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:21,417 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:21,564 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:21,719 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:21,866 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,006 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,173 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,307 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,445 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,584 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,718 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,854 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:22,991 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:23,131 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:23,263 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:23,400 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:23,549 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:23,687 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:23,825 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:23,962 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:24,098 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:24,236 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:24,371 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:24,505 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:24,643 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:24,792 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:24,930 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:25,073 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:25,215 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:25,356 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:25,495 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:25,628 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:25,762 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:25,897 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:26,036 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:26,182 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:26,322 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:26,466 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:26,605 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:26,739 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:26,874 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:27,023 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:27,163 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:27,299 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:27,434 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:27,584 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:31,737 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:31,860 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:32,008 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:32,164 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:32,310 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:32,452 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:32,589 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:32,723 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:32,863 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:33,004 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:33,149 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:33,289 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:33,424 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:33,559 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:33,722 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:33,874 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,014 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,155 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,296 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,431 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,575 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,716 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,854 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:34,993 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:35,150 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:35,291 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:35,427 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:35,570 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:35,711 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:35,856 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:36,000 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:36,143 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:36,282 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:36,437 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:36,588 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:36,728 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:36,869 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,008 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,139 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,280 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,420 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,560 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,697 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,850 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:37,998 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:38,134 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:38,268 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:38,406 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:38,542 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:38,701 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:38,846 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:38,978 - app.config - INFO - Heat level set to 10
+2025-05-07 10:09:39,136 - app.config - INFO - Heat level set to 10
+2025-05-07 10:11:58,422 - app.config - INFO - Roast process reset
+2025-05-07 10:11:59,751 - app.config - INFO - Roast process started
+2025-05-07 10:12:08,953 - app.config - INFO - Roast process paused
+2025-05-07 10:12:11,896 - app.config - INFO - Roast process started
+2025-05-07 10:12:15,762 - app.config - INFO - Roast process reset
+2025-05-07 10:17:25,265 - app.config - INFO - Roast process started
+2025-05-07 10:18:08,415 - app.config - INFO - First crack detected
+2025-05-07 10:18:20,825 - app.config - INFO - Second crack detected
+2025-05-07 10:18:47,671 - app.config - INFO - Roast process reset
+2025-05-07 10:18:48,099 - app.config - INFO - Roast process reset
+2025-05-07 10:18:49,379 - app.config - INFO - Roast process started
+2025-05-07 10:18:52,788 - app.config - INFO - Roast process reset
+2025-05-07 10:27:37,028 - app.config - INFO - Roast process started
+2025-05-07 10:27:44,736 - app.config - INFO - Roast process paused
+2025-05-07 10:27:45,257 - app.config - INFO - Roast process reset
+2025-05-07 10:27:46,140 - app.config - INFO - Roast process started
+2025-05-07 10:28:09,052 - app.config - INFO - Roast process reset
+2025-05-07 10:28:10,686 - app.config - INFO - Roast process reset
+2025-05-07 10:28:11,294 - app.config - INFO - Roast process reset
+2025-05-07 10:28:57,950 - app.config - INFO - Roast process started
+2025-05-07 10:29:03,991 - app.config - INFO - Roast process paused
+2025-05-07 10:29:05,025 - app.config - INFO - Roast process reset
+2025-05-07 10:29:07,209 - app.config - INFO - Roast process reset
+2025-05-07 10:33:43,219 - app.config - INFO - Roast process started
+2025-05-07 10:33:55,567 - app.config - INFO - Roast process reset
+2025-05-07 10:33:57,478 - app.config - INFO - Roast process started
+2025-05-07 10:34:05,272 - app.config - INFO - Roast process reset
+2025-05-07 10:34:34,751 - app.config - INFO - Roast process started
+2025-05-07 10:34:45,466 - app.config - INFO - Roast process paused
+2025-05-07 10:34:53,259 - app.config - INFO - Roast process started
+2025-05-07 10:34:58,609 - app.config - INFO - Roast process paused
+2025-05-07 10:35:31,215 - app.config - INFO - Roast process started
+2025-05-07 10:35:39,054 - app.config - INFO - Roast process paused
+2025-05-07 10:35:43,866 - app.config - INFO - Roast process started
+2025-05-07 10:36:03,639 - app.config - INFO - First crack detected
+2025-05-07 10:36:14,015 - app.config - INFO - Second crack detected
+2025-05-07 10:45:47,960 - app.config - INFO - Roast process reset
+2025-05-07 10:45:48,401 - app.config - INFO - Roast process reset
+2025-05-07 10:45:49,001 - app.config - INFO - Roast process started
+2025-05-07 10:46:07,694 - app.config - INFO - Roast process reset
+2025-05-07 10:46:09,374 - app.config - INFO - Roast process started
+2025-05-07 10:46:54,745 - app.config - INFO - First crack detected
+2025-05-07 10:47:06,360 - app.config - INFO - Second crack detected
+2025-05-07 11:29:10,827 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-07 11:29:10,829 - app.config - INFO - Roast process paused
+2025-05-07 11:29:10,853 - app.config - INFO - Set roast start time to 1746603969.0
+2025-05-07 11:29:10,853 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-07 11:29:12,030 - app.config - INFO - Roast process started
+2025-05-07 11:29:13,025 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-07 11:29:13,025 - app.config - INFO - Roast process paused
+2025-05-07 11:29:13,025 - app.config - INFO - Set roast start time to 1746603969.0
+2025-05-07 11:29:13,025 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-07 11:29:14,081 - app.config - INFO - Roast process reset
+2025-05-07 11:29:34,570 - app.config - INFO - Roast process reset
+2025-05-07 11:29:40,082 - app.config - INFO - Roast process started
+2025-05-07 11:30:05,724 - app.config - INFO - Syncing: Client is not roasting but server was. Pausing on server.
+2025-05-07 11:30:05,725 - app.config - INFO - Roast process paused
+2025-05-07 11:30:05,726 - app.config - INFO - Set roast start time to 1746606580.0
+2025-05-07 11:30:05,726 - app.config - INFO - Restored crack status: first=False, second=False
+2025-05-07 11:30:05,823 - app.config - INFO - Roast process started
+2025-05-07 11:30:27,488 - app.config - INFO - First crack detected
+2025-05-07 11:30:38,085 - app.config - INFO - Second crack detected
+2025-05-07 11:44:40,104 - app.config - INFO - Roast process paused
+2025-05-07 11:50:19,888 - app.config - INFO - Roast process reset
+2025-05-07 11:50:21,595 - app.config - INFO - Roast process reset
+2025-05-07 11:50:21,980 - app.config - INFO - Roast process reset
+2025-05-07 11:50:22,581 - app.config - INFO - Roast process reset
+2025-05-07 11:50:27,862 - app.config - INFO - Roast process reset
+2025-05-07 11:51:36,670 - app.config - INFO - Roast process started
+2025-05-07 11:51:46,880 - app.config - INFO - Roast process reset
+2025-05-07 11:51:47,831 - app.config - INFO - Roast process started
+2025-05-07 11:52:33,695 - app.config - INFO - First crack detected
+2025-05-07 11:52:44,915 - app.config - INFO - Second crack detected
+2025-05-07 11:53:03,884 - app.config - INFO - Roast process paused
+2025-05-07 11:53:06,934 - app.config - INFO - Roast process started
+2025-05-07 11:53:09,308 - app.config - INFO - Roast process reset
+2025-05-07 11:53:14,252 - app.config - INFO - Roast process started
+2025-05-07 11:54:02,102 - app.config - INFO - First crack detected
+2025-05-07 11:54:13,698 - app.config - INFO - Second crack detected
+2025-05-07 12:01:34,334 - app.config - INFO - Shutting down application
+2025-05-07 12:01:34,334 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 12:01:34,450 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 12:01:34,451 - app.config - INFO - Application shutdown complete
+2025-05-07 12:18:40,856 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-07 12:18:40,857 - app.config - INFO - Simulation monitoring started
+2025-05-07 12:18:40,857 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-07 16:25:01,427 - app.config - INFO - Shutting down application
+2025-05-07 16:25:01,429 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 16:25:01,596 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 16:25:01,597 - app.config - INFO - Application shutdown complete
+2025-05-07 16:50:38,708 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-07 16:50:38,708 - app.config - INFO - Simulation monitoring started
+2025-05-07 16:50:38,708 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-07 16:50:54,893 - app.config - INFO - Roast process reset
+2025-05-07 16:50:55,996 - app.config - INFO - Roast process started
+2025-05-07 16:51:14,060 - app.config - INFO - Roast process reset
+2025-05-07 16:51:15,301 - app.config - INFO - Roast process started
+2025-05-07 16:51:47,775 - app.config - INFO - First crack detected at 32.5s / 182.5°C
+2025-05-07 16:51:47,776 - app.config - INFO - Added marker 'First Crack' at 32.474173069000244s / 182.50109040810068°C
+2025-05-07 16:51:54,291 - app.config - INFO - Second crack detected at 39.0s / 211.1°C
+2025-05-07 16:51:54,292 - app.config - INFO - Added marker 'Second Crack' at 38.99009394645691s / 211.08076496639714°C
+2025-05-07 16:56:00,284 - app.config - INFO - Roast process reset
+2025-05-07 16:56:01,108 - app.config - INFO - Roast process started
+2025-05-07 16:56:32,954 - app.config - INFO - First crack detected at 31.8s / 181.9°C
+2025-05-07 16:56:32,955 - app.config - INFO - Added marker 'First Crack' at 31.84575366973877s / 181.85547270929652°C
+2025-05-07 16:56:39,461 - app.config - INFO - Second crack detected at 38.4s / 210.2°C
+2025-05-07 16:56:39,461 - app.config - INFO - Added marker 'Second Crack' at 38.35282301902771s / 210.1631219488332°C
+2025-05-07 16:58:38,294 - app.config - INFO - Shutting down application
+2025-05-07 16:58:38,296 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 16:58:38,490 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 16:58:38,490 - app.config - INFO - Application shutdown complete
+2025-05-07 16:58:41,288 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-07 16:58:41,288 - app.config - INFO - Simulation monitoring started
+2025-05-07 16:58:41,289 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-07 16:58:48,780 - app.config - INFO - Roast process reset
+2025-05-07 16:58:49,809 - app.config - INFO - Roast process started
+2025-05-07 16:58:59,864 - app.config - INFO - Roast process reset
+2025-05-07 16:59:03,363 - app.config - INFO - Roast process started
+2025-05-07 16:59:29,086 - app.config - INFO - First crack detected at 25.7s / 180.7°C
+2025-05-07 16:59:29,087 - app.config - INFO - Added marker 'First Crack' at 25.722418785095215s / 180.69447616135125°C
+2025-05-07 16:59:35,397 - app.config - INFO - Second crack detected at 32.0s / 212.2°C
+2025-05-07 16:59:35,398 - app.config - INFO - Added marker 'Second Crack' at 32.03415894508362s / 212.18220234865512°C
+2025-05-07 17:01:47,761 - app.config - INFO - Roast process reset
+2025-05-07 17:01:48,830 - app.config - INFO - Roast process reset
+2025-05-07 17:01:49,882 - app.config - INFO - Roast process started
+2025-05-07 17:02:18,493 - app.config - INFO - First crack detected at 28.6s / 181.3°C
+2025-05-07 17:02:18,494 - app.config - INFO - Added marker 'First Crack' at 28.61034393310547s / 181.309865695589°C
+2025-05-07 17:02:23,993 - app.config - INFO - Second crack detected at 34.1s / 211.7°C
+2025-05-07 17:02:23,994 - app.config - INFO - Added marker 'Second Crack' at 34.110475063323975s / 211.6801451115799°C
+2025-05-07 17:04:10,593 - app.config - INFO - Shutting down application
+2025-05-07 17:04:10,595 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 17:04:10,726 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 17:04:10,726 - app.config - INFO - Application shutdown complete
+2025-05-07 17:04:12,420 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-07 17:04:12,420 - app.config - INFO - Simulation monitoring started
+2025-05-07 17:04:12,420 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-07 17:04:15,607 - app.config - INFO - Roast process reset
+2025-05-07 17:04:16,707 - app.config - INFO - Roast process started
+2025-05-07 17:04:21,351 - app.config - INFO - Roast process reset
+2025-05-07 17:04:48,035 - app.config - INFO - Roast process started
+2025-05-07 17:05:17,212 - app.config - INFO - First crack detected at 29.2s / 181.9°C
+2025-05-07 17:05:17,213 - app.config - INFO - Added marker 'First Crack' at 29.17640995979309s / 181.87670585687343°C
+2025-05-07 17:05:22,102 - app.config - INFO - Second crack detected at 34.1s / 210.2°C
+2025-05-07 17:05:22,102 - app.config - INFO - Added marker 'Second Crack' at 34.06643486022949s / 210.1570276479925°C
+2025-05-07 17:09:43,473 - app.config - INFO - Shutting down application
+2025-05-07 17:09:43,475 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 17:09:43,645 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 17:09:43,646 - app.config - INFO - Application shutdown complete
+2025-05-07 17:09:47,469 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-07 17:09:47,469 - app.config - INFO - Simulation monitoring started
+2025-05-07 17:09:47,469 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-07 17:09:59,325 - app.config - INFO - Roast process reset
+2025-05-07 17:10:00,480 - app.config - INFO - Roast process started
+2025-05-07 17:10:28,865 - app.config - INFO - First crack detected at 28.4s / 180.0°C
+2025-05-07 17:10:28,867 - app.config - INFO - Added marker 'First Crack' at 28.385674953460693s / 180.00635364719764°C
+2025-05-07 17:10:34,757 - app.config - INFO - Second crack detected at 34.3s / 210.6°C
+2025-05-07 17:10:34,758 - app.config - INFO - Added marker 'Second Crack' at 34.277549028396606s / 210.5503504901954°C
+2025-05-07 17:13:19,294 - app.config - INFO - Shutting down application
+2025-05-07 17:13:19,295 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 17:13:19,427 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 17:13:19,427 - app.config - INFO - Application shutdown complete
+2025-05-07 17:13:20,908 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-07 17:13:20,908 - app.config - INFO - Simulation monitoring started
+2025-05-07 17:13:20,908 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-07 17:13:23,277 - app.config - INFO - Roast process reset
+2025-05-07 17:13:24,642 - app.config - INFO - Roast process started
+2025-05-07 17:13:26,040 - app.config - INFO - Roast process paused
+2025-05-07 17:13:30,830 - app.config - INFO - Roast process started
+2025-05-07 17:13:34,787 - app.config - INFO - Roast process paused
+2025-05-07 17:13:35,715 - app.config - INFO - Roast process started
+2025-05-07 17:13:36,248 - app.config - INFO - Roast process reset
+2025-05-07 17:13:37,054 - app.config - INFO - Roast process reset
+2025-05-07 17:13:37,516 - app.config - INFO - Roast process started
+2025-05-07 17:13:38,072 - app.config - INFO - Roast process paused
+2025-05-07 17:13:38,579 - app.config - INFO - Roast process started
+2025-05-07 17:13:38,843 - app.config - INFO - Roast process paused
+2025-05-07 17:13:39,181 - app.config - INFO - Roast process started
+2025-05-07 17:13:47,961 - app.config - INFO - Roast process paused
+2025-05-07 17:13:48,421 - app.config - INFO - Roast process reset
+2025-05-07 17:18:57,627 - app.config - INFO - Shutting down application
+2025-05-07 17:18:57,629 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 17:18:57,687 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 17:18:57,687 - app.config - INFO - Application shutdown complete
+2025-05-07 17:19:10,855 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-07 17:19:10,855 - app.config - INFO - Simulation monitoring started
+2025-05-07 17:19:10,855 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-07 17:19:52,547 - app.config - INFO - Roast process started
+2025-05-07 17:20:02,783 - app.config - INFO - Roast process paused
+2025-05-07 17:20:03,527 - app.config - INFO - Roast process reset
+2025-05-07 17:20:05,611 - app.config - INFO - Roast process started
+2025-05-07 17:20:14,263 - app.config - INFO - Roast data saved to roast_1746627614.json
+2025-05-07 17:20:36,145 - app.config - INFO - First crack detected at 30.5s / 181.4°C
+2025-05-07 17:20:36,147 - app.config - INFO - Added marker 'First Crack' at 30.533647060394287s / 181.3665593515898°C
+2025-05-07 17:20:43,293 - app.config - INFO - Second crack detected at 37.7s / 210.1°C
+2025-05-07 17:20:43,294 - app.config - INFO - Added marker 'Second Crack' at 37.68233108520508s / 210.13317234268607°C
+2025-05-07 17:22:23,610 - app.config - INFO - Roast process reset
+2025-05-07 17:22:24,795 - app.config - INFO - Roast process started
+2025-05-07 17:22:27,554 - app.config - INFO - Roast process paused
+2025-05-07 17:22:29,919 - app.config - INFO - Roast data saved to roast_1746627749.json
+2025-05-07 17:22:30,003 - app.config - INFO - Roast process reset
+2025-05-07 17:26:18,515 - app.config - INFO - Roast process started
+2025-05-07 17:26:23,473 - app.config - INFO - Roast data saved to roast_1746627983.json
+2025-05-07 17:26:23,553 - app.config - INFO - Roast process reset
+2025-05-07 17:29:06,272 - app.config - INFO - Roast process started
+2025-05-07 17:29:10,343 - app.config - INFO - Roast data saved to roast_1746628150.json
+2025-05-07 17:29:10,425 - app.config - INFO - Roast process reset
+2025-05-07 17:31:39,420 - app.config - INFO - Shutting down application
+2025-05-07 17:31:39,421 - app.config - INFO - Stopping temperature monitoring
+2025-05-07 17:31:39,527 - app.config - INFO - Temperature monitoring stopped
+2025-05-07 17:31:39,527 - app.config - INFO - Application shutdown complete

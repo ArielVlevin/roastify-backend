@@ -1,6 +1,6 @@
 """
 Temperature simulator for the Coffee Roaster API.
-Simulates temperature changes based on heat level and time.
+Simulates temperature changes based on elapsed time.
 """
 import random
 import time
@@ -27,12 +27,10 @@ def get_simulated_temperature() -> float:
     global current_temperature
     return current_temperature
 
-def update_temperature(heat_level: int, force_update: bool = False) -> float:
+def update_temperature(force_update: bool = False) -> float:
     """
-    Update the simulated temperature based on heat level and time elapsed.
     
     Args:
-        heat_level: Heat level (1-10)
         force_update: If True, update regardless of time elapsed
     
     Returns:
@@ -46,9 +44,8 @@ def update_temperature(heat_level: int, force_update: bool = False) -> float:
     if not force_update and (current_time - last_update_time < settings.TEMPERATURE_UPDATE_INTERVAL):
         return current_temperature
     
-    # Calculate temperature change based on heat level
     # More heat = faster temperature rise
-    heat_effect = heat_level * 2
+    heat_effect =  5
     
     # Add some randomness to make it realistic
     random_factor = random.uniform(-1, 3)
@@ -68,7 +65,7 @@ def update_temperature(heat_level: int, force_update: bool = False) -> float:
     
     last_update_time = current_time
     
-    logger.debug(f"Simulated temperature: {current_temperature:.2f}°F, Heat: {heat_level}")
+    logger.debug(f"Simulated temperature: {current_temperature:.2f}°C")
     return current_temperature
 
 def simulate_first_crack(current_temp: float) -> bool:
@@ -82,7 +79,7 @@ def simulate_first_crack(current_temp: float) -> bool:
         bool: True if first crack temperature range
     """
     # First crack usually occurs between 365-385°F
-    return 365 <= current_temp <= 385
+    return 180 <= current_temp <= 200
 
 def simulate_second_crack(current_temp: float) -> bool:
     """
@@ -95,7 +92,7 @@ def simulate_second_crack(current_temp: float) -> bool:
         bool: True if second crack temperature range
     """
     # Second crack usually occurs between 435-450°F
-    return 435 <= current_temp <= 450
+    return 210 <= current_temp <= 230
 
 def get_roast_stage(current_temp: float) -> str:
     """

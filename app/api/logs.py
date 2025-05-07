@@ -4,12 +4,8 @@ API routes for logs and data storage.
 from fastapi import APIRouter, HTTPException, Path
 from typing import List, Optional
 
-from app.models.schemas import (
-    RoastLog,
-    SaveRoastRequest,
-    MessageResponse
-)
-from app.services import monitoring, storage
+from app.models import RoastLog, SaveRoastRequest,MessageResponse
+from app.core import storage, monitor
 from app.config import logger
 
 router = APIRouter(prefix="/api", tags=["logs"])
@@ -17,7 +13,7 @@ router = APIRouter(prefix="/api", tags=["logs"])
 @router.post("/save", response_model=MessageResponse)
 async def save_roast_data(request: SaveRoastRequest):
     """Save the current roast data to a file."""
-    roast_data = monitoring.get_roast_data()
+    roast_data = monitor.get_roast_data()
     
     if len(roast_data) == 0:
         raise HTTPException(status_code=400, detail="No roast data to save")
