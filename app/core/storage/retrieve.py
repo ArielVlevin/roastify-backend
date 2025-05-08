@@ -6,7 +6,7 @@ import json
 from typing import List, Dict, Any, Optional
 
 from app.config import settings, logger
-from app.models.roast_log import RoastLog
+from app.core.models.roast_log import RoastLog
 from app.core.storage.base import ensure_logs_directory, get_full_filepath
 
 def get_roast_logs() -> List[Dict[str, Any]]:

@@ -1,90 +1,21 @@
 """
-API routes for the roasting process.
+API routes for roast status and synchronization.
 """
-from fastapi import APIRouter, HTTPException, BackgroundTasks, Depends
+from fastapi import APIRouter
 from typing import List, Dict, Optional, Any
 from pydantic import BaseModel
 
-from app.models.responses import (
-    TemperatureResponse,
-    StatusResponse,
-    RoastStartResponse,
-    MessageResponse
-)
-
+from app.core.models.responses import RoastStatusResponse
 from app.core import monitor
-
-from app.core import simulator, monitor
 from app.config import logger
 
-router = APIRouter(prefix="/api", tags=["roast"])
+router = APIRouter(tags=["roast_status"])
 
-
-@router.get("/temperature", response_model=TemperatureResponse)
-async def get_temperature_endpoint():
-    """Get the current temperature."""
-    temperature = monitor.get_current_temperature()
-    import time  # Importamos time aquí ya que no usamos el tiempo del módulo monitoring
-    return {
-        "temperature": round(temperature, 1),
-        "timestamp": time.time()
-    }
-
-@router.get("/data", response_model=List[Dict[str, float]])
-async def get_roast_data_endpoint():
-    """Get all roast data points."""
-    return monitor.get_roast_data()
-
-@router.post("/start", response_model=RoastStartResponse)
-async def start_roast_endpoint(background_tasks: BackgroundTasks):
-    """Start the roasting process."""
-    if monitor.is_roasting:
-        raise HTTPException(status_code=400, detail="Roast already in progress")
-    
-    # Start the roast
-    start_time = monitor.start_roast()
-    
-    # Ensure monitoring is running
-    monitor.start_monitoring()
-    
-    return {
-        "message": "Roast process started",
-        "time": start_time
-    }
-
-@router.post("/pause", response_model=MessageResponse)
-async def pause_roast_endpoint():
-    """Pause the roasting process."""
-    if not monitor.state.is_roasting:
-        raise HTTPException(status_code=400, detail="No roast in progress")
-    
-    monitor.pause_roast()
-    return {"message": "Roast process paused"}
-
-@router.post("/reset", response_model=MessageResponse)
-async def reset_roast_endpoint():
-    """Reset the roasting process."""
-    monitor.reset_roast()
-    return {"message": "Roast process reset"}
-
-@router.get("/status", response_model=StatusResponse)
+@router.get("/status")
 async def get_status_endpoint():
     """Get the current status of the roaster."""
     status = monitor.get_status()
     return status
-
-@router.get("/roast-stage", response_model=str)
-async def get_roast_stage_endpoint():
-    """Get the current roast stage description."""
-    stage = monitor.get_roast_stage()
-    return stage
-
-@router.get("/crack-status")
-async def get_crack_status_endpoint():
-    """Get the status of first and second crack detection."""
-    status = monitor.get_crack_status()
-    return status
-
 
 class SyncStateRequest(BaseModel):
     """Request model for syncing state."""
@@ -105,7 +36,7 @@ class SyncStateResponse(BaseModel):
     markers: List[Dict[str, Any]] = []
     message: str = "State synchronized successfully"
 
-@router.post("/sync-state", response_model=SyncStateResponse)
+@router.post("/sync-state")
 async def sync_roast_state(request: SyncStateRequest):
     """
     Synchronize roast state between client and server.
@@ -178,40 +109,3 @@ async def sync_roast_state(request: SyncStateRequest):
         "markers": all_markers,
         "message": "State synchronized successfully"
     }
-    
-class ForceResetResponse(BaseModel):
-    status: str
-    message: str
-
-@router.post("/force-reset", response_model=ForceResetResponse)
-async def force_reset_roast():
-    """
-    Force reset the roast process, even if one is in progress.
-    This is a more aggressive reset for recovery scenarios.
-    """
-    try:
-        # Stop monitoring if active
-        monitor.stop_monitoring()
-        
-        # Reset roast state
-        monitor.reset_roast()
-        
-        # Reset start time to 0
-        monitor.set_start_time(0)
-        
-        # Reset simulator to room temperature
-        simulator.reset_simulator()
-        simulator.current_temperature = 24.0  # Start at room temperature (Celsius)
-        
-        # Restart monitoring
-        monitor.start_monitoring()
-        
-        return {
-            "status": "success",
-            "message": "Roast forcefully reset and monitoring restarted"
-        }
-    except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Failed to force reset roast: {str(e)}"
-        )

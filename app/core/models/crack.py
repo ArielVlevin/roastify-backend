@@ -12,12 +12,3 @@ class CrackStatus(BaseModel):
     first_time: Optional[float] = Field(None, description="Time of first crack in seconds")
     second_time: Optional[float] = Field(None, description="Time of second crack in seconds")
     
-    class Config:
-        schema_extra = {
-            "example": {
-                "first": True,
-                "second": False,
-                "first_time": 360.5,
-                "second_time": None
-            }
-        }

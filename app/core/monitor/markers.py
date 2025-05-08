@@ -6,6 +6,7 @@ import uuid
 from typing import List, Dict, Any, Optional
 from app.config import logger
 from app.core.monitor import state
+from app.core.models.markers import Marker
 
 def create_marker(time_value: float, temperature: float, label: str, 
                  color: str = "#333333", notes: str = "") -> Dict[str, Any]:
@@ -71,7 +72,7 @@ def remove_marker(marker_id: str) -> bool:
     
     return was_removed
 
-def get_markers() -> List[Dict[str, Any]]:
+def get_markers() -> List[Marker]:
     """
     Get all markers for the current roast.
     

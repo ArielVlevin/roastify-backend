@@ -5,11 +5,14 @@ import time
 import threading
 from typing import List, Dict, Optional, Callable, Any, Union
 
+from app.core.models.markers import Marker
+from app.core.models.temp import TemperaturePoint
+
 # Global state
 is_roasting = False
 roast_start_time = 0
-roast_data: List[Dict[str, float]] = []
-markers: List[Dict[str, Any]] = []
+roast_data: List[TemperaturePoint] = []
+markers: List[Marker] = []
 
 # Thread for continuous monitoring
 monitor_thread = None

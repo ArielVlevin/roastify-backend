@@ -10,17 +10,16 @@ __all__ = ["app", "start"]
 """
 Pydantic models for the Coffee Roaster API.
 """
-from app.models.temp import TemperaturePoint
-from app.models.markers import RoastMarker
-from app.models.crack import CrackStatus
-from app.models.status import RoastStatus, RoastSession
-from app.models.responses import (
+from app.core.models.temp import TemperaturePoint
+from app.core.models.markers import Marker
+from app.core.models.crack import CrackStatus
+from app.core.models.status import RoastStatus, RoastSession
+from app.core.models.responses import (
     TemperatureResponse, 
-    StatusResponse, 
     MessageResponse, 
     RoastStartResponse
 )
-from app.models.roast_log import (
+from app.core.models.roast_log import (
     SaveRoastRequest, 
     RoastLog, 
     RoastLogSummary,
@@ -30,7 +29,6 @@ from app.models.roast_log import (
 __all__ = [
     "TemperaturePoint",
     "TemperatureResponse",
-    "StatusResponse",
     "RoastStartResponse",
     "SaveRoastRequest",
     "MessageResponse",
@@ -42,9 +40,9 @@ __all__ = [
 """
 API routes for the Coffee Roaster API.
 """
-from app.api import roast, logs
+from app.api.router import api_router
 
-__all__ = ["roast", "logs"]
+__all__ = ["api_router"]
 
 # app/core/__init__.py
 """

@@ -10,6 +10,7 @@ from typing import List, Dict, Optional
 from app.config import settings, logger
 from app.core import simulator, hardware
 from app.core.monitor import state,crack
+from app.core.models.temp import TemperaturePoint
 
 def get_current_temperature() -> float:
     """
@@ -109,7 +110,8 @@ def stop_monitoring() -> None:
     state.monitor_thread.join(timeout=2.0)
     logger.info("Temperature monitoring stopped")
 
-def get_roast_data() -> List[Dict[str, float]]:
+
+def get_roast_data() -> List[TemperaturePoint]:
     """
     Get the current roast data points.
     
@@ -118,6 +120,10 @@ def get_roast_data() -> List[Dict[str, float]]:
     """
     # Return a copy to prevent external modification
     return copy.deepcopy(state.roast_data)
+
+
+
+
 
 def restore_data(data_points):
     """

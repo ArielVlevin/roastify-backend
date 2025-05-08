@@ -2433,3 +2433,379 @@
 2025-05-07 17:31:39,421 - app.config - INFO - Stopping temperature monitoring
 2025-05-07 17:31:39,527 - app.config - INFO - Temperature monitoring stopped
 2025-05-07 17:31:39,527 - app.config - INFO - Application shutdown complete
+2025-05-08 09:13:30,262 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 09:13:30,263 - app.config - INFO - Simulation monitoring started
+2025-05-08 09:13:30,263 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 10:49:16,050 - app.config - INFO - Roast process started
+2025-05-08 10:49:36,049 - app.config - INFO - Roast process paused
+2025-05-08 10:49:40,619 - app.config - INFO - Roast process started
+2025-05-08 10:49:49,287 - app.config - INFO - Roast data saved to roast_1746690589.json
+2025-05-08 10:49:49,381 - app.config - INFO - Roast process reset
+2025-05-08 10:52:28,322 - app.config - INFO - Roast process started
+2025-05-08 10:52:30,902 - app.config - INFO - Roast process paused
+2025-05-08 11:11:36,967 - app.config - INFO - Roast process started
+2025-05-08 11:11:38,123 - app.config - INFO - Roast process paused
+2025-05-08 11:11:42,797 - app.config - INFO - Roast process reset
+2025-05-08 11:11:43,430 - app.config - INFO - Roast process started
+2025-05-08 11:11:48,513 - app.config - INFO - Roast data saved to roast_1746691908.json
+2025-05-08 11:11:48,591 - app.config - INFO - Roast process reset
+2025-05-08 11:12:14,711 - app.config - INFO - Roast process started
+2025-05-08 11:12:18,652 - app.config - INFO - Roast data saved to roast_1746691938.json
+2025-05-08 11:12:18,729 - app.config - INFO - Roast process reset
+2025-05-08 11:25:36,533 - app.config - INFO - Roast process started
+2025-05-08 11:25:42,936 - app.config - INFO - Roast data saved to roast_1746692742.json
+2025-05-08 11:25:43,020 - app.config - INFO - Roast process reset
+2025-05-08 11:26:08,730 - app.config - INFO - Shutting down application
+2025-05-08 11:26:08,731 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 11:26:08,790 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 11:26:08,790 - app.config - INFO - Application shutdown complete
+2025-05-08 11:47:36,733 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 11:47:36,733 - app.config - INFO - Simulation monitoring started
+2025-05-08 11:47:36,733 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 11:48:17,665 - app.config - INFO - Roast process started
+2025-05-08 11:48:32,256 - app.config - INFO - Roast process started
+2025-05-08 11:48:47,856 - app.config - INFO - First crack detected at 15.6s / 180.4°C
+2025-05-08 11:48:47,860 - app.config - INFO - Added marker 'First Crack' at 15.599381685256958s / 180.42267402074444°C
+2025-05-08 11:48:55,201 - app.config - INFO - Second crack detected at 22.9s / 212.0°C
+2025-05-08 11:48:55,201 - app.config - INFO - Added marker 'Second Crack' at 22.9441180229187s / 212.03987733972232°C
+2025-05-08 11:49:49,836 - app.config - INFO - Roast process started
+2025-05-08 11:50:11,815 - app.config - INFO - Roast process started
+2025-05-08 11:56:19,930 - app.config - INFO - Shutting down application
+2025-05-08 11:56:19,933 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 11:56:19,962 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 11:56:19,963 - app.config - INFO - Application shutdown complete
+2025-05-08 11:56:50,475 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 11:56:50,475 - app.config - INFO - Simulation monitoring started
+2025-05-08 11:56:50,475 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 11:56:55,174 - app.config - INFO - Roast process started
+2025-05-08 11:56:58,110 - app.config - INFO - Roast process started
+2025-05-08 11:57:23,676 - app.config - INFO - First crack detected at 25.6s / 180.5°C
+2025-05-08 11:57:23,677 - app.config - INFO - Added marker 'First Crack' at 25.5665500164032s / 180.54590425396373°C
+2025-05-08 11:57:31,000 - app.config - INFO - Second crack detected at 32.9s / 210.6°C
+2025-05-08 11:57:31,000 - app.config - INFO - Added marker 'Second Crack' at 32.88982129096985s / 210.5535327163754°C
+2025-05-08 11:57:53,825 - app.config - INFO - Shutting down application
+2025-05-08 11:57:53,825 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 11:57:54,028 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 11:57:54,028 - app.config - INFO - Application shutdown complete
+2025-05-08 11:57:55,524 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 11:57:55,524 - app.config - INFO - Simulation monitoring started
+2025-05-08 11:57:55,524 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 11:57:57,234 - app.config - INFO - Roast process started
+2025-05-08 11:57:59,091 - app.config - INFO - Roast process started
+2025-05-08 11:58:26,323 - app.config - INFO - First crack detected at 27.2s / 181.5°C
+2025-05-08 11:58:26,323 - app.config - INFO - Added marker 'First Crack' at 27.231791973114014s / 181.50709122490989°C
+2025-05-08 11:58:32,166 - app.config - INFO - Shutting down application
+2025-05-08 11:58:32,166 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 11:58:32,224 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 11:58:32,224 - app.config - INFO - Application shutdown complete
+2025-05-08 11:58:33,926 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 11:58:33,927 - app.config - INFO - Simulation monitoring started
+2025-05-08 11:58:33,927 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 11:58:36,870 - app.config - INFO - Roast process started
+2025-05-08 11:58:42,215 - app.config - INFO - Roast process reset
+2025-05-08 11:58:42,986 - app.config - INFO - Roast process started
+2025-05-08 11:59:12,358 - app.config - INFO - First crack detected at 29.4s / 182.0°C
+2025-05-08 11:59:12,360 - app.config - INFO - Added marker 'First Crack' at 29.372442960739136s / 182.03807723578612°C
+2025-05-08 11:59:18,075 - app.config - INFO - Second crack detected at 35.1s / 211.4°C
+2025-05-08 11:59:18,075 - app.config - INFO - Added marker 'Second Crack' at 35.08866286277771s / 211.38397659281245°C
+2025-05-08 11:59:26,948 - app.config - INFO - Shutting down application
+2025-05-08 11:59:26,949 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 11:59:27,032 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 11:59:27,032 - app.config - INFO - Application shutdown complete
+2025-05-08 11:59:28,552 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 11:59:28,552 - app.config - INFO - Simulation monitoring started
+2025-05-08 11:59:28,552 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 11:59:31,244 - app.config - INFO - Roast process started
+2025-05-08 11:59:59,672 - app.config - INFO - First crack detected at 28.4s / 181.5°C
+2025-05-08 11:59:59,672 - app.config - INFO - Added marker 'First Crack' at 28.427392959594727s / 181.5074191644821°C
+2025-05-08 12:00:05,983 - app.config - INFO - Second crack detected at 34.7s / 210.9°C
+2025-05-08 12:00:05,984 - app.config - INFO - Added marker 'Second Crack' at 34.73909664154053s / 210.92319723516138°C
+2025-05-08 12:00:21,649 - app.config - INFO - Shutting down application
+2025-05-08 12:00:21,650 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:00:21,687 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:00:21,688 - app.config - INFO - Application shutdown complete
+2025-05-08 12:00:24,655 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:00:24,655 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:00:24,655 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:00:28,144 - app.config - INFO - Roast process started
+2025-05-08 12:00:55,394 - app.config - INFO - First crack detected at 27.3s / 180.4°C
+2025-05-08 12:00:55,395 - app.config - INFO - Added marker 'First Crack' at 27.250627994537354s / 180.38226515050965°C
+2025-05-08 12:01:01,707 - app.config - INFO - Second crack detected at 33.6s / 210.4°C
+2025-05-08 12:01:01,707 - app.config - INFO - Added marker 'Second Crack' at 33.563194036483765s / 210.42872305060243°C
+2025-05-08 12:01:44,926 - app.config - INFO - Shutting down application
+2025-05-08 12:01:44,927 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:01:45,108 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:01:45,109 - app.config - INFO - Application shutdown complete
+2025-05-08 12:01:46,412 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:01:46,413 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:01:46,413 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:01:48,109 - app.config - INFO - Roast process started
+2025-05-08 12:02:16,534 - app.config - INFO - First crack detected at 28.4s / 181.2°C
+2025-05-08 12:02:16,535 - app.config - INFO - Added marker 'First Crack' at 28.425174951553345s / 181.1671808087678°C
+2025-05-08 12:02:21,452 - app.config - INFO - Second crack detected at 33.3s / 211.3°C
+2025-05-08 12:02:21,452 - app.config - INFO - Added marker 'Second Crack' at 33.34276294708252s / 211.3355163412424°C
+2025-05-08 12:05:54,546 - app.config - INFO - Shutting down application
+2025-05-08 12:05:54,546 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:05:54,700 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:05:54,700 - app.config - INFO - Application shutdown complete
+2025-05-08 12:30:40,516 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:30:40,516 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:30:40,516 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:30:47,304 - app.config - INFO - Shutting down application
+2025-05-08 12:30:47,304 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:30:47,433 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:30:47,434 - app.config - INFO - Application shutdown complete
+2025-05-08 12:30:51,287 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:30:51,287 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:30:51,287 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:33:19,783 - app.config - INFO - Shutting down application
+2025-05-08 12:33:19,783 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:33:19,919 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:33:19,919 - app.config - INFO - Application shutdown complete
+2025-05-08 12:33:26,298 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:33:26,298 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:33:26,298 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:33:38,141 - app.config - INFO - Shutting down application
+2025-05-08 12:33:38,141 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:33:38,314 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:33:38,314 - app.config - INFO - Application shutdown complete
+2025-05-08 12:35:05,323 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:35:05,323 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:35:05,323 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:35:13,606 - app.config - INFO - Roast process reset
+2025-05-08 12:35:14,313 - app.config - INFO - Roast process reset
+2025-05-08 12:35:22,471 - app.config - INFO - Roast process reset
+2025-05-08 12:35:44,917 - app.config - INFO - Shutting down application
+2025-05-08 12:35:44,919 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:35:45,007 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:35:45,008 - app.config - INFO - Application shutdown complete
+2025-05-08 12:37:02,429 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:37:02,430 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:37:02,430 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:37:50,344 - app.config - INFO - Roast process reset
+2025-05-08 12:37:51,032 - app.config - INFO - Roast process reset
+2025-05-08 12:38:35,529 - app.config - INFO - Shutting down application
+2025-05-08 12:38:35,531 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:38:35,554 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:38:35,554 - app.config - INFO - Application shutdown complete
+2025-05-08 12:38:38,391 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:38:38,392 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:38:38,392 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:38:56,443 - app.config - INFO - Roast process reset
+2025-05-08 12:38:57,041 - app.config - INFO - Roast process reset
+2025-05-08 12:38:57,306 - app.config - INFO - Roast process reset
+2025-05-08 12:38:57,461 - app.config - INFO - Roast process reset
+2025-05-08 12:38:57,895 - app.config - INFO - Roast process reset
+2025-05-08 12:38:58,062 - app.config - INFO - Roast process reset
+2025-05-08 12:38:58,206 - app.config - INFO - Roast process reset
+2025-05-08 12:41:19,403 - app.config - INFO - Roast process reset
+2025-05-08 12:41:19,856 - app.config - INFO - Roast process reset
+2025-05-08 12:44:01,623 - app.config - INFO - Shutting down application
+2025-05-08 12:44:01,706 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:44:01,812 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:44:01,814 - app.config - INFO - Application shutdown complete
+2025-05-08 12:44:31,182 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:44:31,184 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:44:31,185 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:45:06,752 - app.config - INFO - Roast process reset
+2025-05-08 12:45:18,741 - app.config - INFO - Shutting down application
+2025-05-08 12:45:18,743 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:45:18,775 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:45:18,775 - app.config - INFO - Application shutdown complete
+2025-05-08 12:46:42,632 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:46:42,632 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:46:42,632 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:46:45,703 - app.config - INFO - Roast process reset
+2025-05-08 12:46:46,098 - app.config - INFO - Roast process reset
+2025-05-08 12:46:57,981 - app.config - INFO - Roast process reset
+2025-05-08 12:47:42,423 - app.config - INFO - Roast process reset
+2025-05-08 12:47:42,935 - app.config - INFO - Roast process reset
+2025-05-08 12:47:44,907 - app.config - INFO - Roast process reset
+2025-05-08 12:47:45,394 - app.config - INFO - Roast process reset
+2025-05-08 12:49:08,110 - app.config - INFO - Shutting down application
+2025-05-08 12:49:08,111 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:49:08,280 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:49:08,280 - app.config - INFO - Application shutdown complete
+2025-05-08 12:49:11,197 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:49:11,198 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:49:11,198 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 12:49:17,658 - app.config - INFO - Roast process reset
+2025-05-08 12:49:21,717 - app.config - INFO - Roast process reset
+2025-05-08 12:49:25,485 - app.config - INFO - Roast process started
+2025-05-08 12:49:30,431 - app.config - INFO - Roast process paused
+2025-05-08 12:49:31,547 - app.config - INFO - Roast process started
+2025-05-08 12:49:34,835 - app.config - INFO - Roast process reset
+2025-05-08 12:49:40,405 - app.config - INFO - Roast process started
+2025-05-08 12:49:42,801 - app.config - INFO - Roast process reset
+2025-05-08 12:49:43,745 - app.config - INFO - Roast process started
+2025-05-08 12:49:44,729 - app.config - INFO - Roast process reset
+2025-05-08 12:51:18,621 - app.config - INFO - Roast process started
+2025-05-08 12:51:20,539 - app.config - INFO - Roast process paused
+2025-05-08 12:51:21,306 - app.config - INFO - Roast process reset
+2025-05-08 12:51:21,864 - app.config - INFO - Roast process started
+2025-05-08 12:51:22,898 - app.config - INFO - Roast process reset
+2025-05-08 12:51:23,874 - app.config - INFO - Roast process reset
+2025-05-08 12:53:09,799 - app.config - INFO - Shutting down application
+2025-05-08 12:53:09,799 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 12:53:09,901 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 12:53:09,902 - app.config - INFO - Application shutdown complete
+2025-05-08 12:53:12,216 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 12:53:12,218 - app.config - INFO - Simulation monitoring started
+2025-05-08 12:53:12,218 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 13:11:59,130 - app.config - INFO - Shutting down application
+2025-05-08 13:11:59,131 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 13:11:59,210 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 13:11:59,211 - app.config - INFO - Application shutdown complete
+2025-05-08 13:12:02,059 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 13:12:02,059 - app.config - INFO - Simulation monitoring started
+2025-05-08 13:12:02,059 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 13:26:19,250 - app.config - INFO - Shutting down application
+2025-05-08 13:26:19,251 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 13:26:19,252 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 13:26:19,252 - app.config - INFO - Application shutdown complete
+2025-05-08 13:26:20,892 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 13:26:20,892 - app.config - INFO - Simulation monitoring started
+2025-05-08 13:26:20,892 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 13:29:37,099 - app.config - INFO - Roast process started
+2025-05-08 13:29:43,757 - app.config - INFO - Roast process paused
+2025-05-08 13:29:47,088 - app.config - INFO - Roast data saved to roast_8ef7a5844daa44c4.json
+2025-05-08 13:29:47,172 - app.config - INFO - Roast process reset
+2025-05-08 13:30:16,532 - app.config - INFO - Roast process started
+2025-05-08 13:30:49,107 - app.config - INFO - First crack detected at 32.6s / 181.3°C
+2025-05-08 13:30:49,108 - app.config - INFO - Added marker 'First Crack' at 32.57416915893555s / 181.3090031889282°C
+2025-05-08 13:30:54,611 - app.config - INFO - Second crack detected at 38.1s / 210.4°C
+2025-05-08 13:30:54,612 - app.config - INFO - Added marker 'Second Crack' at 38.07916307449341s / 210.39412177873413°C
+2025-05-08 13:31:07,907 - app.config - INFO - Roast process paused
+2025-05-08 13:31:10,947 - app.config - INFO - Roast data saved to roast_a5384db4c8ef4822.json
+2025-05-08 13:31:11,062 - app.config - INFO - Roast process reset
+2025-05-08 13:32:06,595 - app.config - INFO - Shutting down application
+2025-05-08 13:32:06,598 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 13:32:06,735 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 13:32:06,735 - app.config - INFO - Application shutdown complete
+2025-05-08 13:40:11,685 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 13:40:11,686 - app.config - INFO - Simulation monitoring started
+2025-05-08 13:40:11,686 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 13:40:14,548 - app.config - INFO - Roast process started
+2025-05-08 13:40:24,132 - app.config - INFO - Roast process reset
+2025-05-08 13:40:35,588 - app.config - INFO - Roast process reset
+2025-05-08 13:41:34,454 - app.config - INFO - Roast process started
+2025-05-08 13:41:51,956 - app.config - INFO - Roast process reset
+2025-05-08 13:47:29,998 - app.config - INFO - Shutting down application
+2025-05-08 13:47:30,000 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 13:47:30,183 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 13:47:30,184 - app.config - INFO - Application shutdown complete
+2025-05-08 13:47:31,957 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 13:47:31,958 - app.config - INFO - Simulation monitoring started
+2025-05-08 13:47:31,958 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 13:47:36,014 - app.config - INFO - Roast process reset
+2025-05-08 13:47:38,671 - app.config - INFO - Roast process started
+2025-05-08 13:47:43,717 - app.config - INFO - Roast process reset
+2025-05-08 13:48:30,399 - app.config - INFO - Shutting down application
+2025-05-08 13:48:30,400 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 13:48:30,405 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 13:48:30,405 - app.config - INFO - Application shutdown complete
+2025-05-08 13:48:34,056 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 13:48:34,056 - app.config - INFO - Simulation monitoring started
+2025-05-08 13:48:34,057 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 14:07:29,235 - app.config - INFO - Roast process reset
+2025-05-08 14:07:57,323 - app.config - INFO - Shutting down application
+2025-05-08 14:07:57,324 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 14:07:57,462 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 14:07:57,463 - app.config - INFO - Application shutdown complete
+2025-05-08 14:07:59,256 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 14:07:59,256 - app.config - INFO - Simulation monitoring started
+2025-05-08 14:07:59,256 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 14:08:02,648 - app.config - INFO - Roast process started
+2025-05-08 14:08:07,332 - app.config - INFO - Roast data saved to roast_ff756fc7e84947ce.json
+2025-05-08 14:08:07,402 - app.config - INFO - Roast process reset
+2025-05-08 14:08:10,329 - app.config - INFO - Roast process reset
+2025-05-08 14:08:10,907 - app.config - INFO - Roast process reset
+2025-05-08 14:08:11,165 - app.config - INFO - Roast process reset
+2025-05-08 14:08:13,070 - app.config - INFO - Roast process started
+2025-05-08 14:08:19,027 - app.config - ERROR - Error saving roast data: Object of type Marker is not JSON serializable
+2025-05-08 14:08:19,129 - app.config - INFO - Roast process reset
+2025-05-08 14:16:21,247 - app.config - INFO - Shutting down application
+2025-05-08 14:16:21,248 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 14:16:21,277 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 14:16:21,277 - app.config - INFO - Application shutdown complete
+2025-05-08 14:16:27,704 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 14:16:27,704 - app.config - INFO - Simulation monitoring started
+2025-05-08 14:16:27,704 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 14:16:34,010 - app.config - INFO - Roast process started
+2025-05-08 14:16:38,405 - app.config - ERROR - Error saving roast data: Object of type Marker is not JSON serializable
+2025-05-08 14:16:38,500 - app.config - INFO - Roast process reset
+2025-05-08 14:21:02,403 - app.config - INFO - Shutting down application
+2025-05-08 14:21:02,405 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 14:21:02,500 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 14:21:02,500 - app.config - INFO - Application shutdown complete
+2025-05-08 14:21:09,105 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 14:21:09,106 - app.config - INFO - Simulation monitoring started
+2025-05-08 14:21:09,106 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 14:21:13,966 - app.config - INFO - Roast process started
+2025-05-08 14:21:19,916 - app.config - ERROR - Error saving roast data: Object of type Marker is not JSON serializable
+2025-05-08 14:21:20,003 - app.config - INFO - Roast process reset
+2025-05-08 14:22:03,640 - app.config - INFO - Shutting down application
+2025-05-08 14:22:03,642 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 14:22:03,701 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 14:22:03,703 - app.config - INFO - Application shutdown complete
+2025-05-08 14:22:05,008 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 14:22:05,008 - app.config - INFO - Simulation monitoring started
+2025-05-08 14:22:05,008 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 14:22:08,594 - app.config - INFO - Roast process started
+2025-05-08 14:22:14,688 - app.config - ERROR - Error saving roast data: Object of type Marker is not JSON serializable
+2025-05-08 14:22:14,788 - app.config - INFO - Roast process reset
+2025-05-08 14:26:20,677 - app.config - INFO - Roast process started
+2025-05-08 14:26:27,313 - app.config - ERROR - Error saving roast data: Object of type Marker is not JSON serializable
+2025-05-08 14:26:27,407 - app.config - INFO - Roast process reset
+2025-05-08 14:28:02,549 - app.config - INFO - Roast process started
+2025-05-08 14:28:07,466 - app.config - ERROR - Error saving roast data: Object of type Marker is not JSON serializable
+2025-05-08 14:28:07,562 - app.config - INFO - Roast process reset
+2025-05-08 14:28:56,109 - app.config - INFO - Shutting down application
+2025-05-08 14:28:56,110 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 14:28:56,202 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 14:28:56,202 - app.config - INFO - Application shutdown complete
+2025-05-08 14:28:58,047 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 14:28:58,047 - app.config - INFO - Simulation monitoring started
+2025-05-08 14:28:58,047 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 14:28:59,997 - app.config - INFO - Roast process reset
+2025-05-08 14:29:05,058 - app.config - INFO - Roast process started
+2025-05-08 14:29:10,277 - app.config - ERROR - Error saving roast data: Object of type Marker is not JSON serializable
+2025-05-08 14:29:10,380 - app.config - INFO - Roast process reset
+2025-05-08 14:33:02,053 - app.config - INFO - Shutting down application
+2025-05-08 14:33:02,057 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 14:33:02,226 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 14:33:02,227 - app.config - INFO - Application shutdown complete
+2025-05-08 14:33:03,537 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-08 14:33:03,537 - app.config - INFO - Simulation monitoring started
+2025-05-08 14:33:03,537 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-08 14:33:06,375 - app.config - INFO - Roast process started
+2025-05-08 14:33:09,891 - app.config - INFO - Roast data saved to roast_685c507846fa47df.json
+2025-05-08 14:33:09,957 - app.config - INFO - Roast process reset
+2025-05-08 14:33:12,796 - app.config - INFO - Roast process started
+2025-05-08 14:33:19,181 - app.config - INFO - Roast data saved to roast_29718fac9fbf400d.json
+2025-05-08 14:33:19,271 - app.config - INFO - Roast process reset
+2025-05-08 14:34:32,702 - app.config - ERROR - Error reading log file roast_c4ba60da579144fd: Expecting value: line 115 column 5 (char 1716)
+2025-05-08 14:34:32,704 - app.config - ERROR - Error reading log file roast_fc14a3d0948d40a8: Expecting value: line 107 column 5 (char 1600)
+2025-05-08 14:34:32,705 - app.config - ERROR - Error reading log file roast_d5fd52d0d6c24e09: Expecting value: line 143 column 5 (char 2121)
+2025-05-08 14:34:32,706 - app.config - ERROR - Error reading log file roast_95e19e5d4da24734: Expecting value: line 131 column 5 (char 1947)
+2025-05-08 14:34:32,707 - app.config - ERROR - Error reading log file roast_650f290419574caa: Expecting value: line 99 column 5 (char 1483)
+2025-05-08 14:34:32,707 - app.config - ERROR - Error reading log file roast_fbdaba31b6e949e6: Expecting value: line 131 column 5 (char 1948)
+2025-05-08 14:34:32,708 - app.config - ERROR - Error reading log file roast_f176bdb10c6b437a: Expecting value: line 131 column 5 (char 1947)
+2025-05-08 14:34:32,722 - app.config - ERROR - Error reading log file roast_c4ba60da579144fd: Expecting value: line 115 column 5 (char 1716)
+2025-05-08 14:34:32,722 - app.config - ERROR - Error reading log file roast_fc14a3d0948d40a8: Expecting value: line 107 column 5 (char 1600)
+2025-05-08 14:34:32,723 - app.config - ERROR - Error reading log file roast_d5fd52d0d6c24e09: Expecting value: line 143 column 5 (char 2121)
+2025-05-08 14:34:32,723 - app.config - ERROR - Error reading log file roast_95e19e5d4da24734: Expecting value: line 131 column 5 (char 1947)
+2025-05-08 14:34:32,723 - app.config - ERROR - Error reading log file roast_650f290419574caa: Expecting value: line 99 column 5 (char 1483)
+2025-05-08 14:34:32,723 - app.config - ERROR - Error reading log file roast_fbdaba31b6e949e6: Expecting value: line 131 column 5 (char 1948)
+2025-05-08 14:34:32,723 - app.config - ERROR - Error reading log file roast_f176bdb10c6b437a: Expecting value: line 131 column 5 (char 1947)
+2025-05-08 14:34:34,270 - app.config - ERROR - Error reading log file roast_c4ba60da579144fd: Expecting value: line 115 column 5 (char 1716)
+2025-05-08 14:34:34,270 - app.config - ERROR - Error reading log file roast_fc14a3d0948d40a8: Expecting value: line 107 column 5 (char 1600)
+2025-05-08 14:34:34,271 - app.config - ERROR - Error reading log file roast_d5fd52d0d6c24e09: Expecting value: line 143 column 5 (char 2121)
+2025-05-08 14:34:34,271 - app.config - ERROR - Error reading log file roast_95e19e5d4da24734: Expecting value: line 131 column 5 (char 1947)
+2025-05-08 14:34:34,272 - app.config - ERROR - Error reading log file roast_650f290419574caa: Expecting value: line 99 column 5 (char 1483)
+2025-05-08 14:34:34,273 - app.config - ERROR - Error reading log file roast_fbdaba31b6e949e6: Expecting value: line 131 column 5 (char 1948)
+2025-05-08 14:34:34,273 - app.config - ERROR - Error reading log file roast_f176bdb10c6b437a: Expecting value: line 131 column 5 (char 1947)
+2025-05-08 14:44:58,567 - app.config - INFO - Shutting down application
+2025-05-08 14:44:58,569 - app.config - INFO - Stopping temperature monitoring
+2025-05-08 14:44:58,626 - app.config - INFO - Temperature monitoring stopped
+2025-05-08 14:44:58,627 - app.config - INFO - Application shutdown complete

@@ -9,10 +9,3 @@ class TemperaturePoint(BaseModel):
     time: float = Field(..., description="Time in seconds from start of roast")
     temperature: float = Field(..., description="Temperature in Celsius")
     
-    class Config:
-        schema_extra = {
-            "example": {
-                "time": 120.5,
-                "temperature": 180.2
-            }
-        }

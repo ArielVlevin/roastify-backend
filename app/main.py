@@ -6,7 +6,7 @@ from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings, logger
-from app.api import roast, logs
+from app.api.router import api_router
 from app.core import hardware, monitor, storage
 
 # Create FastAPI app
@@ -26,8 +26,7 @@ app.add_middleware(
 )
 
 # Include API routers
-app.include_router(roast.router)
-app.include_router(logs.router)
+app.include_router(api_router)
 
 @app.get("/", tags=["status"])
 async def root():

@@ -4,7 +4,7 @@ Crack detection functionality for the Coffee Roaster API.
 from app.config import logger
 from app.core.monitor import state
 from app.core import simulator
-from app.core.monitor import markers
+from app.core.monitor.markers import add_marker
 
 def check_for_cracks(current_temp: float, elapsed_time: float) -> None:
     """
@@ -21,7 +21,7 @@ def check_for_cracks(current_temp: float, elapsed_time: float) -> None:
         logger.info(f"First crack detected at {elapsed_time:.1f}s / {current_temp:.1f}°C")
         
         # Add a marker for first crack
-        markers.add_marker(
+        add_marker(
             elapsed_time, 
             current_temp, 
             "First Crack", 
@@ -39,7 +39,7 @@ def check_for_cracks(current_temp: float, elapsed_time: float) -> None:
         logger.info(f"Second crack detected at {elapsed_time:.1f}s / {current_temp:.1f}°C")
         
         # Add a marker for second crack
-        markers.add_marker(
+        add_marker(
             elapsed_time, 
             current_temp, 
             "Second Crack", 
