@@ -13,7 +13,7 @@ class Marker(BaseModel):
     temperature: float = Field(..., description="Temperature in Celsius at marker time")
     label: str = Field(..., description="Label text for the marker")
     color: Optional[str] = Field("#333333", description="Color for the marker (HEX)")
-    icon: Optional[str] = Field(..., description="Icon for the marker")
+    icon: Optional[str] = Field("", description="Icon for the marker")
     notes: Optional[str] = Field("", description="Additional notes about the marker")
     
     def to_dict(self):

@@ -27,7 +27,7 @@ class RoastSaveData(BaseModel):
     notes: Optional[str] = Field("", description="Notes about this roast")
     data: List[TemperaturePoint] = Field(..., description="Temperature data points")
     markers: Optional[List[Marker]] = Field(default_factory=list, description="Roast markers")
-    crack_status: CrackStatus = Field(..., description="Crack detection status")
+    crack_status: Optional[CrackStatus] = Field(None, description="Crack detection status")
 
     #first_crack_time: Optional[float] = Field(None, description="Time of first crack in seconds")
     #second_crack_time: Optional[float] = Field(None, description="Time of second crack in seconds")
