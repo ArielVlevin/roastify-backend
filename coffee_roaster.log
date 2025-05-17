@@ -2841,3 +2841,10 @@
 2025-05-17 08:39:13,307 - app.config - INFO - Stopping temperature monitoring
 2025-05-17 08:39:13,421 - app.config - INFO - Temperature monitoring stopped
 2025-05-17 08:39:13,422 - app.config - INFO - Application shutdown complete
+2025-05-17 13:18:46,811 - app.config - INFO - Starting Coffee Roaster API in simulation mode
+2025-05-17 13:18:46,811 - app.config - INFO - Simulation monitoring started
+2025-05-17 13:18:46,811 - app.config - INFO - Coffee Roaster API started successfully
+2025-05-17 13:31:32,225 - app.config - INFO - Shutting down application
+2025-05-17 13:31:32,228 - app.config - INFO - Stopping temperature monitoring
+2025-05-17 13:31:32,342 - app.config - INFO - Temperature monitoring stopped
+2025-05-17 13:31:32,343 - app.config - INFO - Application shutdown complete
