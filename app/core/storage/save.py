@@ -44,6 +44,9 @@ def save_roast_data(
     marks = request.markers
     serialized_markers = [marker.model_dump() for marker in marks]
     
+    cracks = request.crack_status
+    serialized_cracks = cracks.model_dump() if cracks else {}    
+    
     # Create the save data structure
     save_data : RoastLog = {
         "id": id,
@@ -54,7 +57,7 @@ def save_roast_data(
         "notes": request.notes or "",
         "data": roast_data,
         "markers": serialized_markers or [],
-        "crack_status": request.crack_status or {}
+        "crack_status": serialized_cracks 
     }
     try:
         # Ensure directory exists
