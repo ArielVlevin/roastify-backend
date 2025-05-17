@@ -4,38 +4,22 @@ API routes for logs and data storage.
 from fastapi import APIRouter, HTTPException, Path
 from typing import List, Optional
 
-from app.models.schemas import (
-    RoastLog,
-    SaveRoastRequest,
-    MessageResponse
-)
-from app.services import monitoring, storage
+from app.core.models import RoastLog, SaveRoastRequest,MessageResponse
+from app.core import storage, monitor
 from app.config import logger
 
-router = APIRouter(prefix="/api", tags=["logs"])
+router = APIRouter( tags=["logs"])
 
-@router.post("/save", response_model=MessageResponse)
-async def save_roast_data(request: SaveRoastRequest):
-    """Save the current roast data to a file."""
-    roast_data = monitoring.get_roast_data()
-    
-    if len(roast_data) == 0:
-        raise HTTPException(status_code=400, detail="No roast data to save")
-    
-    filename = storage.save_roast_data(roast_data, request)
-    
-    if not filename:
-        raise HTTPException(status_code=500, detail="Failed to save roast data")
-    
-    return {"message": f"Roast data saved to {filename}"}
 
-@router.get("/logs", response_model=List[RoastLog])
+
+@router.get("/logs")
 async def get_roast_logs():
     """Get a list of all saved roast logs."""
     logs = storage.get_roast_logs()
+    print("logs: ", logs)
     return logs
 
-@router.get("/logs/{log_id}", response_model=RoastLog)
+@router.get("/logs/{log_id}")
 async def get_roast_log(log_id: str = Path(..., description="Log ID")):
     """Get a specific roast log by ID."""
     log = storage.get_roast_log(log_id)
@@ -45,7 +29,7 @@ async def get_roast_log(log_id: str = Path(..., description="Log ID")):
     
     return log
 
-@router.delete("/logs/{log_id}", response_model=MessageResponse)
+@router.delete("/logs/{log_id}")
 async def delete_roast_log(log_id: str = Path(..., description="Log ID")):
     """Delete a specific roast log."""
     success = storage.delete_roast_log(log_id)

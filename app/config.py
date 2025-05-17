@@ -30,10 +30,7 @@ class Settings(BaseSettings):
     PORT: int = 8000
     
     # Roast configuration
-    DEFAULT_TEMPERATURE: float = 70.0  # Starting room temperature in Fahrenheit
-    MAX_HEAT_LEVEL: int = 10
-    MIN_HEAT_LEVEL: int = 1
-    DEFAULT_HEAT_LEVEL: int = 5
+    DEFAULT_TEMPERATURE: float = 24.0  # Starting room temperature in C
     
     # Phidget configuration
     SIMULATION_MODE: bool = True
@@ -47,7 +44,7 @@ class Settings(BaseSettings):
     LOGS_DIRECTORY: str = "roast_logs"
     
     # Advanced settings
-    TEMPERATURE_UPDATE_INTERVAL: float = 0.6  # Seconds between temperature updates
+    TEMPERATURE_UPDATE_INTERVAL: float = 0.2  # Seconds between temperature updates
     
     # Pydantic 2.x uses model_config instead of Config class
     model_config = SettingsConfigDict(

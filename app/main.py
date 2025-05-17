@@ -6,9 +6,8 @@ from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings, logger
-from app.api import roast, logs
-from app.core import hardware, simulator
-from app.services import monitoring, storage
+from app.api.router import api_router
+from app.core import hardware, monitor, storage
 
 # Create FastAPI app
 app = FastAPI(
@@ -27,8 +26,7 @@ app.add_middleware(
 )
 
 # Include API routers
-app.include_router(roast.router)
-app.include_router(logs.router)
+app.include_router(api_router)
 
 @app.get("/", tags=["status"])
 async def root():
@@ -56,7 +54,7 @@ async def startup_event():
             settings.SIMULATION_MODE = True
     
     # Start the monitoring service
-    monitoring.start_monitoring()
+    monitor.start_monitoring()
     
     logger.info(f"{settings.APP_NAME} started successfully")
 
@@ -66,7 +64,7 @@ async def shutdown_event():
     logger.info("Shutting down application")
     
     # Stop the monitoring service
-    monitoring.stop_monitoring()
+    monitor.stop_monitoring()
     
     # Cleanup hardware resources
     hardware.cleanup_hardware()
