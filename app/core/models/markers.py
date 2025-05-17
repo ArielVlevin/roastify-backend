@@ -13,6 +13,7 @@ class Marker(BaseModel):
     temperature: float = Field(..., description="Temperature in Celsius at marker time")
     label: str = Field(..., description="Label text for the marker")
     color: Optional[str] = Field("#333333", description="Color for the marker (HEX)")
+    icon: Optional[str] = Field(..., description="Icon for the marker")
     notes: Optional[str] = Field("", description="Additional notes about the marker")
     
     def to_dict(self):
@@ -23,9 +24,12 @@ class Marker(BaseModel):
             "temperature": self.temperature,
             "label": self.label,
             "color": self.color,
+            "icon": self.icon,
             "notes": self.notes
         }
         
+        
+
     @classmethod
     def create(cls, id, time, temperature, label, color=None, notes=None):
         """Factory method to create a marker with default values."""
@@ -35,5 +39,6 @@ class Marker(BaseModel):
             temperature=temperature,
             label=label,
             color=color or "#333333",
+            icon="",
             notes=notes or ""
         )

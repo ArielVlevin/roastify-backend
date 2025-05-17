@@ -15,7 +15,7 @@ class SaveRoastRequest(BaseModel):
     profile: str = Field(default="Custom", description="Roast profile used")
     notes: Optional[str] = Field("", description="Notes about this roast")
     markers: Optional[List[Marker]] = Field(default_factory=list, description="Roast markers")
-    crack_data: Optional[CrackStatus] = Field(None, description="Crack detection status")
+    crack_status: Optional[CrackStatus] = Field(None, description="Crack detection status")
 
         
 class RoastSaveData(BaseModel):
