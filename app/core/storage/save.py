@@ -54,7 +54,7 @@ def save_roast_data(
         "notes": request.notes or "",
         "data": roast_data,
         "markers": serialized_markers or [],
-        "crack_status": request.crackStatus or {}
+        "crack_status": request.crack_status or {}
     }
     try:
         # Ensure directory exists
