@@ -3,7 +3,6 @@ Configuration settings for the Coffee Roaster API.
 """
 import os
 import logging
-# Import from pydantic-settings instead of pydantic for Pydantic 2.x
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from pydantic import Extra
 
@@ -37,8 +36,7 @@ class Settings(BaseSettings):
     PHIDGET_SERIAL_NUMBER: int = 0  # Set to your device serial number
     HUB_PORT: int = 0  # hub0000_0
     TEMP_CHANNEL: int = 0  # tmp1101_0
-    HEATER_PORT: int = 1
-    HEATER_CHANNEL: int = 0
+
     
     # Storage configuration
     LOGS_DIRECTORY: str = "roast_logs"
